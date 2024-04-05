@@ -1,5 +1,5 @@
-# <p align="center">TexTide: A Case Study</p>
-## <p align="center">Analyzing The Arch Linux Operating System Versatility from Desktop to Cloud</p>
+# <p align="center">TexTide: An OS Case Study</p>
+## <p align="center">Analyzing Arch Linux's Versatility from Desktop to Cloud</p>
 
 <!-- Badge icons found at https://feathericons.com/ -->
 <p align="center">
