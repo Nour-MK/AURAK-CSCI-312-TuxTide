@@ -1,52 +1,48 @@
 # TexTide: A Case Study Analyzing The Arch Linux Operating System Versatility from Desktop to Cloud
 
-**Word count:**  
+**Word count:** TBC
 
 # Table of Contents
 
 1. [Executive Summary](#executive-summary)
 2. [Glossary](#glossary)
 6. [Introduction](#introduction)
-    - [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria)
-    - [Background Information](#background-information)
-        - [The Man & The Penguin](#)
-        - [Linux History](#linux)
-        - [Arch Linux History](#arch-linux)
-    - [Understanding Operating Systems](#understanding-operating-systems)
-        - [Kernel vs. CPU](#kernel-vs-cpu)
-        - 
+    1. [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria)
+    2. [Background Information](#background-information)
+        1. [The Man & The Penguin](#)
+        2. [Linux History](#linux)
+        3. [Arch Linux History](#arch-linux)
 7. [Part 1: Daily Driver OS (Arch Linux)](#operating-system-one)
-    - [Process and Threads](#process-and-threads)
-    - [Process Scheduling](#process-scheduling)
-    - [Synchronization](#synchronization)
-    - [Deadlock](#deadlock)
-    - [Memory Management](#memory-management)
-    - [File Management](#file-management)
+    1. [Process and Threads](#process-and-threads)
+    2. [Process Scheduling](#process-scheduling)
+    3. [Synchronization](#synchronization)
+    4. [Deadlock](#deadlock)
+    5. [Memory Management](#memory-management)
+    6. [File Management](#file-management)
 8. [Part 2: Cloud Computing OS (Arch Linux)](#operating-system-two-cloud-os)
-   - [Trends in Operating Systems](#)
-   - [What Constitutes a Cloud Computing OS?](#)
-   - [Comparison with OS of Part 1](#comparison-with-os-one)
-       - [Implementation-wise](#)
-       - [Performance-wise](#)
-       - [Hardware Support](#)
-       - [Community and Support](#)
-       - [Updates and Stability](#)
-       - [Licensing and Cost](#)
+    1. [Trends in Operating Systems](#)
+    2. [What Constitutes a Cloud Computing OS?](#)
+    3. [Comparison with OS of Part 1](#comparison-with-os-one)
+        1. [Implementation-wise](#)
+        2. [Performance-wise](#)
+        3. [Hardware Support](#)
+        4. [Community and Support](#)
+        5. [Updates and Stability](#)
+        6. [Licensing and Cost](#)
 10. [Part 3: Additional Considerations (Best Practices in OS)](#)
-    - [Legal and Ethical Issues](#legal-and-ethical-issues)
-    - [Solutions to Issues](#solutions-to-issues)
+    1. [Legal and Ethical Issues](#legal-and-ethical-issues)
+    2. [Solutions to Issues](#solutions-to-issues)
 11. [Conclusion](#conclusion)
-    - [Overview](#overview)
-    - [Linux vs. Our Current Daily Drivers](#)
-        - [Linux vs. Windows](#)
-        - [Linux vs. macOS](#)
-    - [Further Research](#further-research)
-    - [Building Our Own Distro!](#building-our-own-distro)
-12. [Work Distribution Among Team](#work-graph)
-19. [Acknowledgments](#acknowledgments)
+    1. [Overview](#overview)
+    2. [Linux vs. Our Current Daily Drivers](#)
+        1. [Linux vs. Windows](#)
+        2. [Linux vs. macOS](#)
+    3. [Further Research](#further-research)
+    4. [Building Our Own Distro!](#building-our-own-distro)
+12. [Work Distribution & Acknowledgements](#work-distribution--acknowledgements)
 14. [Resources](#resources)
-
 18. [Terms of Use](#terms-of-use)
+
 
 # Executive Summary
 
@@ -85,10 +81,24 @@
 
 17. **Documentation**: Comprehensive information and instructions provided with software or hardware products, including user manuals, guides, tutorials, and technical specifications. It helps users understand and utilize the features and capabilities of the product.
 
+# Work Distribution & Acknowledgements
+| | Member            | ID        | Contact                                                                                        | Task |
+|-|-------------------|-----------|------------------------------------------------------------------------------------------------|------|
+|1| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         |      |
+|2| Mohamed Abouissa  | 2021005188| [Email](mailto:mohamed.abouissa@aurak.ac.ae), [Github](https://github.com/Mohamed-Abouissa)   |      |
+|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae),                                                                                               |      |
+|4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae),                                                                                               |      |
+|5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)    |      |
+|6| Nour Mohamed      | 2021004938| [Email](mailto:nour.mohamed@aurak.ac.ae), [Github](https://github.com/Nour-MK)                |      |
+
+
+We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable guidance, encouragement, and support throughout this research project. Her expertise and insightful feedback have significantly contributed to the completion of this study.
+
+# Resources
 
 # Terms of Use
 Copyright © 2024 All Contributors
 
-This case study is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). Individuals are permitted to share and distribute the work non-commercially, provided proper attribution is given to all contributors. However, derivative works based on this material are not allowed without prior permission from [@Nour-MK.](https://github.com/Nour-MK), even if they comply with the terms of the CC BY-NC-ND 4.0 license.
+This case study is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://github.com/Nour-MK/TuxTide/blob/main/LICENSE.txt). Individuals are permitted to share and distribute the work non-commercially, provided proper attribution is given to all contributors. However, derivative works based on this material are not allowed without prior permission from [@Nour-MK.](https://github.com/Nour-MK), even if they comply with the terms of the CC BY-NC-ND 4.0 license.
 
 This publication adheres to all regulatory laws and guidelines established by the American University of Ras Al Khaimah (AURAK) regarding the dissemination of academic materials.
