@@ -1,7 +1,7 @@
 # <p align="center">TexTide: An OS Case Study</p>
 ## <p align="center">Analyzing Arch Linux's Versatility from Desktop to Cloud</p>
 ![](Assets/banner.png)
-<!-- Badge icons found at https://feathericons.com/ -->
+<!-- Badge icons found at https://feathericons.com/ and view stats at https://yhype.me/github/accounts/Nour-MK/TuxTide/traffic -->
 <p align="center">
   <a href="https://custom-icon-badges.demolab.com/badge/Project%20Status-Work%20in%20Progress-1793d1?style=for-the-badge&logo=activity&logoSource=feather&logoColor=white">
     <img src="https://custom-icon-badges.demolab.com/badge/Project%20Status-Work%20in%20Progress-1793d1?style=for-the-badge&logo=activity&logoSource=feather&logoColor=white" alt="Project Status" title="Project Status" style="vertical-align:top; margin:4px"></a>
