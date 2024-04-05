@@ -1,19 +1,28 @@
-# TexTide: A Case Study Analyzing The Arch Linux Operating System Versatility from Desktop to Cloud
+# <p align="center">TexTide: A Case Study</p>
+## <p align="center">Analyzing The Arch Linux Operating System Versatility from Desktop to Cloud</p>
+
+<!-- Badge icons found at https://feathericons.com/ -->
 <p align="center">
-  <img width="8000" height="250" src="Assets/banner.png">
+  <a href="https://custom-icon-badges.demolab.com/badge/Project%20Status-Work%20in%20Progress-1793d1?style=for-the-badge&logo=activity&logoSource=feather&logoColor=white">
+    <img src="https://custom-icon-badges.demolab.com/badge/Project%20Status-Work%20in%20Progress-1793d1?style=for-the-badge&logo=activity&logoSource=feather&logoColor=white" alt="Project Status" title="Project Status" style="vertical-align:top; margin:4px"></a>
+  <a href="https://custom-icon-badges.demolab.com/badge/Word%20Count-5k-1793d1?style=for-the-badge&logo=type&logoSource=feather&logoColor=white">
+    <img src="https://custom-icon-badges.demolab.com/badge/Word%20Count-5k-1793d1?style=for-the-badge&logo=type&logoSource=feather&logoColor=white" alt="Word Count" title="Word Count" style="vertical-align:top; margin:4px"></a>
+  <a href="https://custom-icon-badges.demolab.com/badge/Views%20Count-5k-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white">
+    <img src="https://custom-icon-badges.demolab.com/badge/Views%20Count-5k-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white" alt="Views Count" title="Views Count" style="vertical-align:top; margin:4px"></a>
 </p>
 
-**Word count:** TBC
 
-# Work Distribution & Acknowledgements
+
+
+## Work Distribution & Acknowledgements
 | | Member            | ID        | Contact                                                                                        | Task |
 |-|-------------------|-----------|------------------------------------------------------------------------------------------------|------|
-|1| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         |      |
-|2| Mohamed Abouissa  | 2021005188| [Email](mailto:mohamed.abouissa@aurak.ac.ae), [Github](https://github.com/Mohamed-Abouissa)   |      |
-|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae),                                                                                               |      |
-|4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae),                                                                                               |      |
-|5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)    |      |
-|6| Nour Mohamed      | 2021004938| [Email](mailto:nour.mohamed@aurak.ac.ae), [Github](https://github.com/Nour-MK)                |      |
+|1| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         | 1. Conducted research on synchronization. <br> 2. Conducted research on deadlock. <br> 3. Prepared presentation slides. |
+|2| Mohamed Abouissa  | 2021005188| [Email](mailto:mohamed.abouissa@aurak.ac.ae), [Github](https://github.com/Mohamed-Abouissa)   | 1. Conducted research on introduction. <br> 2. Conducted research on memory management. <br> 3. Conducted research on file management. |
+|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae)                                                   | 1. Prepared executive summary. <br> 2. Compiled glossary. <br> 3. Conducted research on trends in operating systems. |
+|4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae)                                                    | 1. Conducted research on what constitutes a cloud computing OS. <br> 2. Compared OS of Part 1 with OS of Part 2. <br> 3. Conducted research on legal and ethical issues.  |
+|5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)          | 1. Provided solutions to issues identified. <br> 2. Wrote the conclusion. <br> 3. Formatted resources in APA 7th edition style. |
+|6| Nour Mohamed      | 2021004938| [Email](mailto:nour.mohamed@aurak.ac.ae), [Github](https://github.com/Nour-MK)                  | 1. Conducted research on process and threads. <br> 2. Conducted research on process scheduling. <br> 3. Exported case study to various formats. |
 
 
 We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable guidance, encouragement, and support throughout this research project. Her expertise and insightful feedback have significantly contributed to the completion of this study.
