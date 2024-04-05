@@ -1,5 +1,7 @@
-# <p align="center">TexTide: An OS Case Study</p>
+# <p align="center">TuxTide[^*]: An OS Case Study</p>
 ## <p align="center">Analyzing Arch Linux's Versatility from Desktop to Cloud</p>
+[^*]: The title "TuxTide" (i.e. Tux Tide) represents a convergence associated with Tux, the Linux mascot. It implies a surge or wave of activity, innovation, or prominence related to Linux or open-source technology and suggests the powerful force and momentum driven by the Linux community (both developers and users), with Tux as its emblem.
+
 ![](Assets/banner.png)
 <!-- Badge icons found at https://feathericons.com/ and view stats at https://yhype.me/github/accounts/Nour-MK/TuxTide/traffic -->
 <p align="center">
@@ -11,8 +13,7 @@
     <img src="https://custom-icon-badges.demolab.com/badge/Views%20Count-288-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white" alt="Views Count" title="Views Count" style="vertical-align:top; margin:4px"></a>
 </p>
 
-
-
+This study aims to academically investigate operating systems, focusing on Arch Linux. It begins with an Executive Summary and Glossary to provide brief insights and clarify technical terms used throughout the study. The Introduction section outlines the criteria for selecting operating systems and presents background information on Linux and Arch Linux history. Parts 1 and 2 discuss Arch Linux's functionality as both a Daily Driver OS and a Cloud Computing OS. Additionally, Part 2 compares Arch Linux's roles in daily usage and cloud computing environments, analyzing factors such as implementation, performance, hardware support, community and support, updates and stability, as well as licensing and cost considerations. Part 3 addresses Additional Considerations, including legal and ethical issues related to operating systems and proposing potential solutions. The study concludes by giving an overview to recap all discussed findings, comparing Linux with mainstream operating systems like Windows and macOS, suggesting avenues for further research, and considering the possibility of constructing a custom Linux distribution of our own! Finally, a list of resources is provided for reference and further exploration.
 
 ## Work Distribution & Acknowledgements
 | | Member            | ID        | Contact                                                                                        | Task |
