@@ -2,44 +2,57 @@
 
 **Word count:** TBC
 
+# Work Distribution & Acknowledgements
+| | Member            | ID        | Contact                                                                                        | Task |
+|-|-------------------|-----------|------------------------------------------------------------------------------------------------|------|
+|1| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         |      |
+|2| Mohamed Abouissa  | 2021005188| [Email](mailto:mohamed.abouissa@aurak.ac.ae), [Github](https://github.com/Mohamed-Abouissa)   |      |
+|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae),                                                                                               |      |
+|4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae),                                                                                               |      |
+|5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)    |      |
+|6| Nour Mohamed      | 2021004938| [Email](mailto:nour.mohamed@aurak.ac.ae), [Github](https://github.com/Nour-MK)                |      |
+
+
+We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable guidance, encouragement, and support throughout this research project. Her expertise and insightful feedback have significantly contributed to the completion of this study.
+
+
 # Table of Contents
 
 1. [Executive Summary](#executive-summary)
 2. [Glossary](#glossary)
 6. [Introduction](#introduction)
-    1. [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria)
+    1. [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria-for-choosing-the-operating-systems-in-parts-1--2)
     2. [Background Information](#background-information)
-        1. [The Man & The Penguin](#)
-        2. [Linux History](#linux)
-        3. [Arch Linux History](#arch-linux)
-7. [Part 1: Daily Driver OS (Arch Linux)](#operating-system-one)
+        1. [The Man & The Penguin](#the-man--the-penguin)
+        2. [Linux History](#linux-history)
+        3. [Arch Linux History](#arch-linux-history)
+7. [Part 1: Daily Driver OS (Arch Linux)](#part-1-daily-driver-os-arch-linux)
     1. [Process and Threads](#process-and-threads)
     2. [Process Scheduling](#process-scheduling)
     3. [Synchronization](#synchronization)
     4. [Deadlock](#deadlock)
     5. [Memory Management](#memory-management)
     6. [File Management](#file-management)
-8. [Part 2: Cloud Computing OS (Arch Linux)](#operating-system-two-cloud-os)
-    1. [Trends in Operating Systems](#)
-    2. [What Constitutes a Cloud Computing OS?](#)
-    3. [Comparison with OS of Part 1](#comparison-with-os-one)
-        1. [Implementation-wise](#)
-        2. [Performance-wise](#)
-        3. [Hardware Support](#)
-        4. [Community and Support](#)
-        5. [Updates and Stability](#)
-        6. [Licensing and Cost](#)
-10. [Part 3: Additional Considerations (Best Practices in OS)](#)
+8. [Part 2: Cloud Computing OS (Arch Linux)](#part-2-cloud-computing-os-arch-linux)
+    1. [Trends in Operating Systems](#trends-in-operating-systems)
+    2. [What Constitutes a Cloud Computing OS?](#what-constitutes-a-cloud-computing-os)
+    3. [Comparison with OS of Part 1](#comparison-with-os-of-part-1)
+        1. [Implementation-wise](#implementation-wise)
+        2. [Performance-wise](#performance-wise)
+        3. [Hardware Support](#hardware-support)
+        4. [Community and Support](#community-and-support)
+        5. [Updates and Stability](#updates-and-stability)
+        6. [Licensing and Cost](#licensing-and-cost)
+10. [Part 3: Additional Considerations (Best Practices in OS)](#part-3-additional-considerations-best-practices-in-os)
     1. [Legal and Ethical Issues](#legal-and-ethical-issues)
     2. [Solutions to Issues](#solutions-to-issues)
 11. [Conclusion](#conclusion)
     1. [Overview](#overview)
-    2. [Linux vs. Our Current Daily Drivers](#)
-        1. [Linux vs. Windows](#)
-        2. [Linux vs. macOS](#)
+    2. [Linux vs. Our Current Daily Drivers](#linux-vs-our-current-daily-drivers)
+        1. [Linux vs. Windows](#linux-vs-windows)
+        2. [Linux vs. macOS](#linux-vs-macos)
     3. [Further Research](#further-research)
     4. [Building Our Own Distro!](#building-our-own-distro)
-12. [Work Distribution & Acknowledgements](#work-distribution--acknowledgements)
 14. [Resources](#resources)
 18. [Terms of Use](#terms-of-use)
 
@@ -81,18 +94,43 @@
 
 17. **Documentation**: Comprehensive information and instructions provided with software or hardware products, including user manuals, guides, tutorials, and technical specifications. It helps users understand and utilize the features and capabilities of the product.
 
-# Work Distribution & Acknowledgements
-| | Member            | ID        | Contact                                                                                        | Task |
-|-|-------------------|-----------|------------------------------------------------------------------------------------------------|------|
-|1| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         |      |
-|2| Mohamed Abouissa  | 2021005188| [Email](mailto:mohamed.abouissa@aurak.ac.ae), [Github](https://github.com/Mohamed-Abouissa)   |      |
-|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae),                                                                                               |      |
-|4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae),                                                                                               |      |
-|5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)    |      |
-|6| Nour Mohamed      | 2021004938| [Email](mailto:nour.mohamed@aurak.ac.ae), [Github](https://github.com/Nour-MK)                |      |
+# Introduction
+## Criteria for Choosing the Operating Systems in Parts 1 & 2
+## Background Information
+### The Man & The Penguin
+### Linux History
+### Arch Linux History
 
+# Part 1: Daily Driver OS (Arch Linux)
+## Process and Threads
+## Process Scheduling
+## Synchronization
+## Deadlock
+## Memory Management
+## File Management
 
-We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable guidance, encouragement, and support throughout this research project. Her expertise and insightful feedback have significantly contributed to the completion of this study.
+# Part 2: Cloud Computing OS (Arch Linux)
+## Trends in Operating Systems
+## What Constitutes a Cloud Computing OS?
+## Comparison with OS of Part 1
+### Implementation-wise
+### Performance-wise
+### Hardware Support
+### Community and Support
+### Updates and Stability
+### Licensing and Cost
+
+# Part 3: Additional Considerations (Best Practices in OS)
+## Legal and Ethical Issues
+## Solutions to Issues
+
+# Conclusion
+## Overview
+## Linux vs. Our Current Daily Drivers
+### Linux vs. Windows
+### Linux vs. macOS
+## Further Research
+## Building Our Own Distro!
 
 # Resources
 
