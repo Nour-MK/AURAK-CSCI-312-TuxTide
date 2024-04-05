@@ -1,5 +1,7 @@
 # TexTide: A Case Study Analyzing The Arch Linux Operating System Versatility from Desktop to Cloud
-![](Assets/logo.png)
+<p align="center">
+  <img width="8000" height="250" src="Assets/banner.png">
+</p>
 
 **Word count:** TBC
 
