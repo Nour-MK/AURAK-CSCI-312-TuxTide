@@ -1,6 +1,6 @@
-# <p align="center">TuxTide[^*]: An OS Case Study</p>
+# <p align="center">TuxTide[^1]: An OS Case Study</p>
 ## <p align="center">Analyzing Arch Linux's Versatility from Desktop to Cloud</p>
-[^*]: The title "TuxTide" (i.e. Tux Tide) represents a convergence associated with Tux, the Linux mascot. It implies a surge or wave of activity, innovation, or prominence related to Linux or open-source technology and suggests the powerful force and momentum driven by the Linux community (both developers and users), with Tux as its emblem.
+[^1]: The title "TuxTide" (i.e. Tux Tide) represents a convergence associated with Tux, the Linux mascot. It implies a surge or wave of activity, innovation, or prominence related to Linux or open-source technology and suggests the powerful force and momentum driven by the Linux community (both developers and users), with Tux as its emblem.
 
 ![](Assets/banner.png)
 <!-- Badge icons found at https://feathericons.com/ and view stats at https://yhype.me/github/accounts/Nour-MK/TuxTide/traffic -->
@@ -20,7 +20,7 @@ This study aims to academically investigate operating systems, focusing on Arch 
 |-|-------------------|-----------|------------------------------------------------------------------------------------------------|------|
 |1| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         | 1. Conducted research on synchronization. <br> 2. Conducted research on deadlock. <br> 3. Prepared presentation slides. |
 |2| Mohamed Abouissa  | 2021005188| [Email](mailto:mohamed.abouissa@aurak.ac.ae), [Github](https://github.com/Mohamed-Abouissa)   | 1. Conducted research on introduction. <br> 2. Conducted research on memory management. <br> 3. Conducted research on file management. |
-|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae), [Github](https://github.com/Khawlaalh)                                                  | 1. Prepared executive summary. <br> 2. Compiled glossary. <br> 3. Conducted research on OS trends. |
+|3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae), [Github](https://github.com/Khawlaalh)                                                  | 1. Prepared executive summary. <br> 2. Compiled a glossary in the footnotes. <br> 3. Conducted research on OS trends. |
 |4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae), [Github](https://github.com/SarahAlsuwaidi)                                                   | 1. Conducted research on cloud computing OSes. <br> 2. Compared OS of Part 1 with OS of Part 2. <br> 3. Conducted research on legal and ethical issues.  |
 |5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)          | 1. Provided solutions to issues identified. <br> 2. Wrote the conclusion. <br> 3. Formatted resources in APA 7th edition style. |
 |6| Nour Mohamed      | 2021004938| [Email](mailto:nour.mohamed@aurak.ac.ae), [Github](https://github.com/Nour-MK)                  | 1. Conducted research on process and threads. <br> 2. Conducted research on process scheduling. <br> 3. Exported case study to various formats. |
@@ -32,7 +32,6 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 # Table of Contents
 
 1. [Executive Summary](#executive-summary)
-2. [Glossary](#glossary)
 6. [Introduction](#introduction)
     1. [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria-for-choosing-the-operating-systems-in-parts-1--2)
     2. [Background Information](#background-information)
@@ -72,42 +71,16 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 
 # Executive Summary
 
-# Glossary
-1. **Daily Driver**: A computer or operating system that is used regularly for everyday tasks, such as web browsing, email, document editing, etc. It is the primary system relied upon by the user for their computing needs.
+<details>
+  <summary> Click to expand/collapse</summary>
 
-2. **Bare Metal**: Refers to a computer system or software that operates directly on the underlying hardware without the need for an intervening operating system or virtualization layer.
-
-3. **Shell**: A program that serves as the interface between the user and the operating system, allowing users to interact with the system by interpreting commands and executing them. Shells can be command-line interfaces (CLI) or graphical user interfaces (GUI), providing users with different ways to interact with the system.
-
-4. **Kernel**: The core component of an operating system that manages system resources, such as memory, CPU, and input/output devices. It acts as an intermediary between the hardware and the software layers of the system.
-
-5. **Vanilla**: In the context of software, "vanilla" refers to the original, unmodified version of a program or operating system, without any additional features or customizations.
-
-6. **Ricing**: An acronym/term that originated in the Unix and Linux communities, particularly within the desktop customization (often called "desktop theming") subculture. It stands for Race Inspired Cosmetic Enhancements and it's the practice of customizing the appearance and functionality of a computer system, typically through the use of themes, icons, and configuration settings, to achieve a desired aesthetic or performance.
-
-7. **Flavors**: Variants or different versions of a software or operating system that are tailored to specific use cases or preferences. They may include different configurations, packages, or default settings.
-
-8. **Fork of a Fork**: A software project that is derived from another project, which itself was originally derived from a separate project. It represents a further divergence in the development path, typically resulting in significant differences from the original codebase.
-
-9. **Distribution**: A complete operating system package that includes the kernel, system utilities, libraries, and applications, pre-configured and packaged for easy installation and use. Linux distributions, such as Ubuntu and Fedora, are examples of this.
-
-10. **Distro Hopping**: The practice of frequently switching between different Linux distributions, often motivated by a desire to explore different features, performance characteristics, or software availability.
-
-11. **Desktop Environment**: A graphical user interface (GUI) that provides users with a visual way to interact with their computer, including windows, icons, menus, and other graphical elements. Examples include GNOME, KDE, and Xfce.
-
-12. **Bloatware**: Software that includes unnecessary features, functions, or components, often resulting in excessive resource usage, decreased performance, or decreased usability. It may be pre-installed on systems or bundled with other software packages.
-
-13. **GUI**: A graphical user interface, a type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators, as opposed to text-based interfaces, such as command-line interfaces.
-
-14. **CLI**: Command-Line Interface, a text-based interface used for entering commands to communicate with a computer system. It provides users with direct access to system functions and utilities through typed commands.
-
-15. **Virtual Machine**: A software-based emulation of a physical computer system that allows multiple operating systems to run simultaneously on the same hardware. It provides isolation and encapsulation of resources, enabling efficient utilization of hardware resources.
-
-16. **Dual Boot**: The practice of installing and running two different operating systems on the same computer, allowing users to choose which operating system to boot into when starting the system.
-
-17. **Documentation**: Comprehensive information and instructions provided with software or hardware products, including user manuals, guides, tutorials, and technical specifications. It helps users understand and utilize the features and capabilities of the product.
+</details>
 
 # Introduction
+
+<details>
+  <summary> Click to expand/collapse</summary>
+
 ## Criteria for Choosing the Operating Systems in Parts 1 & 2
 Choosing an operating system (OS) for our research and case study is a critical decision that warrants careful consideration. In selecting the operating system (OS) for our study, several key criteria were considered to ensure an immersive and engaging research experience. Firstly, the OS should not be widely recognized or mainstream to avoid duplication of efforts with classmates, fostering a unique and stimulating exploration and presentation of key findings. This requirement eliminates OSes such as Windows, macOS, Ubuntu, and Android. Secondly, the OS must be fully open-source as this allows us to freely inspect the source code, providing a firsthand understanding of its underlying architecture and infrastructure. This transparency empowers us to delve deeper into the OS's mechanisms, gaining insights that may not be readily available with closed-source alternatives. Additionally, the vast community surrounding open-source OSes serves as a valuable resource. Many community members have likely encountered and addressed the same questions and challenges we will face, offering a wealth of knowledge and expertise to draw from. This collaborative ecosystem enhances our learning process, enabling us to leverage the collective wisdom and experiences of those who have traversed similar paths before us. Additionally, the chosen OS must demonstrate maturity, offering comprehensive documentation and resources for thorough research. This requirement eliminates new or incomplete OS releases like Fuchsia, dahliaOS, ChromeOS, and Rhino Linux ensuring a stable foundation for our study. Furthermore, the OS should serve as a daily driver for personal devices, capable of supporting a wide range of tasks commonly performed by average or power users. This criterion excludes toy or meme OSes as well as specialized distributions like Temple OS, Hannah Montana Linux, AmogOS, Kali Linux, BlackArch Linux, and Garuda Linux ensuring relevance and practicality in our investigation. Finally, accessibility is crucial, necessitating the availability of a virtual machine (VM) image to facilitate experimental demonstrations and testing. By adhering to these criteria, we aimed to select an OS that piques the interest of all contributors and enables us to conduct a comprehensive and meaningful study.
 
@@ -131,7 +104,15 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 
 ### Arch Linux History
 
+
+</details>
+
+
 # Part 1: Daily Driver OS (Arch Linux)
+
+<details>
+  <summary> Click to expand/collapse</summary>
+
 ## Process and Threads
 ## Process Scheduling
 ## Synchronization
@@ -139,7 +120,13 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 ## Memory Management
 ## File Management
 
+</details>
+
 # Part 2: Cloud Computing OS (Arch Linux)
+
+<details>
+  <summary> Click to expand/collapse</summary>
+
 ## Trends in Operating Systems
 ## What Constitutes a Cloud Computing OS?
 ## Comparison with OS of Part 1
@@ -150,11 +137,25 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 ### Updates and Stability
 ### Licensing and Cost
 
+</details>
+
+
 # Part 3: Additional Considerations (Best Practices in OS)
+
+<details>
+  <summary> Click to expand/collapse</summary>
+
 ## Legal and Ethical Issues
 ## Solutions to Issues
 
+</details>
+
+
 # Conclusion
+
+<details>
+  <summary> Click to expand/collapse</summary>
+
 ## Overview
 ## Linux vs. Our Current Daily Drivers
 ### Linux vs. Windows
@@ -162,7 +163,15 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 ## Further Research
 ## Building Our Own Distro!
 
+</details>
+
+
 # Resources
+
+<details>
+  <summary> Click to expand/collapse</summary>
+
+</details>
 
 # Terms of Use
 Copyright © 2024 All Contributors
