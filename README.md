@@ -151,6 +151,7 @@ The Linux architecture can be depicted as a layered structure. Starting from the
   <summary> Click to expand/collapse</summary>
 
 ### Legal and Ethical Issues
+> A lot of that momentum comes from the fact that Linux is free. **— Nat Friedman**
 ### Solutions to Issues
 
 </details>
@@ -164,6 +165,7 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 ### Overview
 ### Linux vs. Our Current Daily Drivers
 #### Linux vs. Windows
+> If Microsoft ever does applications for Linux it means I've won. **— Linus Torvalds**
 #### Linux vs. macOS
 ### Further Research
 ### Building Our Own Distro!
