@@ -30,6 +30,8 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 
 
 # Table of Contents
+<details>
+  <summary> Click to expand/collapse</summary>
 
 1. [Executive Summary](#executive-summary)
 6. [Introduction](#introduction)
@@ -67,6 +69,8 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
     4. [Building Our Own Distro!](#building-our-own-distro)
 14. [Resources](#resources)
 18. [Terms of Use](#terms-of-use)
+
+</details>
 
 
 # Executive Summary
