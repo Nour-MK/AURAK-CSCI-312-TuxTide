@@ -209,7 +209,7 @@ Arch Linux, like other Unix-like operating systems, employs various strategies t
 
 <details>
   <summary> Click to expand/collapse</summary>
-
+  [1] 
 </details>
 
 ## Terms of Use
