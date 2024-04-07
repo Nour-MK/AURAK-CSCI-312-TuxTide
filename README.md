@@ -30,61 +30,48 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 
 
 ## Table of Contents
-<details>
-  <summary> Click to expand/collapse</summary>
 
 1. [Executive Summary](#executive-summary)
-6. [Introduction](#introduction)
-    1. [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria-for-choosing-the-operating-systems-in-parts-1--2)
-    2. [Background Information](#background-information)
-        1. [The Man & The Penguin](#the-man--the-penguin)
-        2. [Linux History](#linux-history)
-        3. [Arch Linux History](#arch-linux-history)
-7. [Part 1: Daily Driver OS (Arch Linux)](#part-1-daily-driver-os-arch-linux)
-    1. [Process and Threads](#process-and-threads)
-    2. [Process Scheduling](#process-scheduling)
-    3. [Synchronization](#synchronization)
-    4. [Deadlock](#deadlock)
-    5. [Memory Management](#memory-management)
-    6. [File Management](#file-management)
-8. [Part 2: Cloud Computing OS (Arch Linux)](#part-2-cloud-computing-os-arch-linux)
-    1. [Trends in Operating Systems](#trends-in-operating-systems)
-    2. [What Constitutes a Cloud Computing OS?](#what-constitutes-a-cloud-computing-os)
-    3. [Comparison with OS of Part 1](#comparison-with-os-of-part-1)
-        1. [Implementation-wise](#implementation-wise)
-        2. [Performance-wise](#performance-wise)
-        3. [Hardware Support](#hardware-support)
-        4. [Community and Support](#community-and-support)
-        5. [Updates and Stability](#updates-and-stability)
-        6. [Licensing and Cost](#licensing-and-cost)
-10. [Part 3: Additional Considerations (Best Practices in OS)](#part-3-additional-considerations-best-practices-in-os)
-    1. [Legal and Ethical Issues](#legal-and-ethical-issues)
-    2. [Solutions to Issues](#solutions-to-issues)
-11. [Conclusion](#conclusion)
-    1. [Overview](#overview)
-    2. [Linux vs. Our Current Daily Drivers](#linux-vs-our-current-daily-drivers)
-        1. [Linux vs. Windows](#linux-vs-windows)
-        2. [Linux vs. macOS](#linux-vs-macos)
-    3. [Further Research](#further-research)
-    4. [Building Our Own Distro!](#building-our-own-distro)
-12. [Appendix of Figures](#appendix-of-figures)
-14. [Resources](#resources)
-18. [Terms of Use](#terms-of-use)
-
-</details>
-
+2. [Introduction](#introduction)<br>
+&nbsp;<span>2.1.</span>  [Criteria for Choosing the Operating Systems in Parts 1 & 2](#criteria-for-choosing-the-operating-systems-in-parts-1--2)<br>
+&nbsp;<span>2.2.</span>  [Background Information](#background-information)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>2.2.1.</span>  [The Man & The Penguin](#the-man--the-penguin)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>2.2.2.</span>  [Linux History](#linux-history)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>2.2.3.</span>  [Arch Linux History](#arch-linux-history)<br>
+3. [Part 1: Daily Driver OS (Arch Linux)](#part-1-daily-driver-os-arch-linux)<br>
+&nbsp;3.1. [Process and Threads](#process-and-threads)<br>
+&nbsp;3.2. [Process Scheduling](#process-scheduling)<br>
+&nbsp;3.3. [Synchronization](#synchronization)<br>
+&nbsp;3.4. [Deadlock](#deadlock)<br>
+&nbsp;3.5. [Memory Management](#memory-management)<br>
+&nbsp;3.6. [File Management](#file-management)<br>
+4. [Part 2: Cloud Computing OS (Arch Linux)](#part-2-cloud-computing-os-arch-linux)<br>
+&nbsp;4.1. [Trends in Operating Systems](#trends-in-operating-systems)<br>
+&nbsp;4.2. [What Constitutes a Cloud Computing OS?](#what-constitutes-a-cloud-computing-os)<br>
+&nbsp;4.3. [Comparison with OS of Part 1](#comparison-with-os-of-part-1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. [Implementation-wise](#implementation-wise)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Performance-wise](#performance-wise)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.3. [Hardware Support](#hardware-support)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.4. [Community and Support](#community-and-support)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.5. [Updates and Stability](#updates-and-stability)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.6. [Licensing and Cost](#licensing-and-cost)<br>
+5. [Part 3: Additional Considerations (Best Practices in OS)](#part-3-additional-considerations-best-practices-in-os)<br>
+&nbsp;5.1. [Legal and Ethical Issues](#legal-and-ethical-issues)<br>
+&nbsp;5.2. [Solutions to Issues](#solutions-to-issues)<br>
+6. [Conclusion](#conclusion)<br>
+&nbsp;6.1. [Overview](#overview)<br>
+&nbsp;6.2. [Linux vs. Our Current Daily Drivers](#linux-vs-our-current-daily-drivers)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.1. [Linux vs. Windows](#linux-vs-windows)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2. [Linux vs. macOS](#linux-vs-macos)<br>
+&nbsp;6.3. [Further Research](#further-research)<br>
+&nbsp;6.4. [Building Our Own Distro!](#building-our-own-distro)<br>
+7. [Resources](#resources)<br>
+8. [Terms of Use](#terms-of-use)<br>
 
 ## Executive Summary
 
-<details>
-  <summary> Click to expand/collapse</summary>
-
-</details>
 
 ## Introduction
-
-<details>
-  <summary> Click to expand/collapse</summary>
 
 ### Criteria for Choosing the Operating Systems in Parts 1 & 2
 Choosing an operating system (OS) for our research and case study is a critical decision that warrants careful consideration. In selecting the operating system (OS) for our study, several key criteria were considered to ensure an immersive and engaging research experience. Firstly, the OS should not be widely recognized or mainstream to avoid duplication of efforts with classmates, fostering a unique and stimulating exploration and presentation of key findings. This requirement eliminates OSes such as Windows, macOS, Ubuntu, and Android. Secondly, the OS must be fully open-source as this allows us to freely inspect the source code, providing a firsthand understanding of its underlying architecture and infrastructure. This transparency empowers us to delve deeper into the OS's mechanisms, gaining insights that may not be readily available with closed-source alternatives. Additionally, the vast community surrounding open-source OSes serves as a valuable resource. Many community members have likely encountered and addressed the same questions and challenges we will face, offering a wealth of knowledge and expertise to draw from. This collaborative ecosystem enhances our learning process, enabling us to leverage the collective wisdom and experiences of those who have traversed similar paths before us. Additionally, the chosen OS must demonstrate maturity, offering comprehensive documentation and resources for thorough research. This requirement eliminates new or incomplete OS releases like Fuchsia, dahliaOS, ChromeOS, and Rhino Linux ensuring a stable foundation for our study. Furthermore, the OS should serve as a daily driver for personal devices, capable of supporting a wide range of tasks commonly performed by average or power users. This criterion excludes toy or meme OSes as well as specialized distributions like Temple OS, Hannah Montana Linux, AmogOS, Kali Linux, BlackArch Linux, and Garuda Linux ensuring relevance and practicality in our investigation. Finally, accessibility is crucial, necessitating the availability of a virtual machine (VM) image to facilitate experimental demonstrations and testing. By adhering to these criteria, we aimed to select an OS that piques the interest of all contributors and enables us to conduct a comprehensive and meaningful study.
@@ -111,29 +98,24 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 #### Arch Linux History
 
 
-</details>
-
 
 ## Part 1: Daily Driver OS (Arch Linux)
-
-<details>
-  <summary> Click to expand/collapse</summary>
 
 ### Process and Threads
 ### Process Scheduling
 ### Synchronization
 Arch Linux, being a distribution of Linux, utilizes various synchronization mechanisms provided by the Linux kernel. These mechanisms include (but are not limited to):
-1. **Mutexes and Semaphores:** Arch Linux uses mutexes and semaphores to control access to shared resources among processes. Mutexes allow exclusive access to a resource, while semaphores allow both exclusive and shared access based on a count. The Linux kernel provides an implementation of semaphores, which are declared and initialized using the `struct semaphore` type. Semaphores can be created directly and initialized using `void sema_init(struct semaphore *sem, int val);` where `val` is the initial value to assign to a semaphore. Another way is using helper functions and macros like `DECLARE_MUTEX(name);` and `DECLARE_MUTEX_LOCKED(name);`. In this scenario, the outcome is a semaphore variable named `name` that gets initialized to 1 via `DECLARE_MUTEX` or 0 via `DECLARE_MUTEX_LOCKED`. In the latter scenario, the mutex commences in a locked state, necessitating explicit unlocking before any thread can gain access. For cases where the mutex needs to be initialized during runtime, such as when dynamically allocated, utilize either of the functions `void init_MUTEX(struct semaphore *sem);` or `void init_MUTEX_LOCKED(struct semaphore *sem);`. Further, the `down` function decrements the value of the semaphore, while `down_interruptible` allows interruption and `down_trylock` returns immediately if the semaphore is unavailable. There are three versions of down: `void down(struct semaphore *sem);`, `int down_interruptible(struct semaphore *sem);`, and `int down_trylock(struct semaphore *sem);`. After a thread has effectively invoked one of the variants of `down`, it's considered to be "holding" the semaphore. Subsequently, that thread is granted access to the critical section guarded by the semaphore. Upon completing operations necessitating mutual exclusion, the semaphore must be relinquished. The `void up(struct semaphore *sem);` function is used to increment the value of a semaphore, effectively releasing a resource. When you call `up()` on a semaphore, it increases the semaphore count, which indicates that a resource has become available. This allows other processes or threads waiting on that semaphore to proceed, potentially accessing the shared resource it guards. Proper handling of semaphores, especially in error paths, is crucial to prevent processes from hanging and ensure system stability. [Tap to view figures](#Synchronization-figures)
-2. **Spinlocks:** are used to protect critical sections of code from simultaneous access by multiple threads. When a thread tries to acquire a spinlock that is already held by another thread, it spins in a loop until the lock becomes available. Semaphores and spinlocks are essential mechanisms in the Linux kernel for ensuring mutual exclusion. While semaphores are versatile and can handle sleeping processes, spinlocks are primarily used in non-sleeping contexts like interrupt handlers, offering higher performance. Spinlocks operate by repeatedly checking for lock availability, with atomic operations ensuring thread safety and deadlock avoidance. They are typically employed in multiprocessor systems but are also relevant for uniprocessor systems with preemptive kernels due to concurrency concerns. Proper locking mechanisms are crucial even in uniprocessor systems without preemption to prevent infinite spinning. The necessary header file for the spinlock primitives is `<linux/spinlock.h>`. A spinlock is represented by the data type `spinlock_t`. Similar to other data structures, a spinlock needs initialization. This can occur during compilation using `spinlock_t my_lock = SPIN_LOCK_UNLOCKED;` or during runtime using `void spin_lock_init(spinlock_t *lock);`. Prior to entering a critical section, the code must acquire the required lock through `void spin_lock(spinlock_t *lock);`. It's important to note that all spinlock waits are inherently uninterruptible. Once `spin_lock` is called, the code will spin until the lock becomes available. To release a previously obtained lock, use `void spin_unlock(spinlock_t *lock);`.
-3. **Read-Write Locks:** Arch Linux employs read-write locks to allow concurrent read access to a resource while ensuring exclusive write access. This mechanism enhances performance by permitting multiple readers simultaneously but ensuring only one writer at a time. The Linux kernel offers a specialized semaphore type known as `rwsem`, or "reader/writer semaphore," which is occasionally beneficial in driver development. Including `<linux/rwsem.h>` is necessary for code utilizing rwsems. The relevant data structure for reader/writer semaphores is `struct rw_semaphore`, requiring explicit initialization at runtime with `void init_rwsem(struct rw_semaphore *sem);`. A freshly initialized rwsem is ready for the next task (either reader or writer). For read-only access, code interfaces with `void down_read(struct rw_semaphore *sem);`, `int down_read_trylock(struct rw_semaphore *sem);`, and `void up_read(struct rw_semaphore *sem);` such that `down_read` grants read-only access to protected resources, possibly concurrently with other readers and `down_read_trylock` returns nonzero if access was granted immediately, else 0. Success with `down_read` necessitates releasing the rwsem with `up_read`. Similarly, for writers, the functions `void down_write(struct rw_semaphore *sem);`, `int down_write_trylock(struct rw_semaphore *sem);`, `void up_write(struct rw_semaphore *sem);`, and `void downgrade_write(struct rw_semaphore *sem);` are used. These functions behave akin to their reader counterparts, providing write access. `downgrade_write` allows other readers in after performing quick changes. An `rwsem` permits either one writer or numerous readers to hold the semaphore. Writers take precedence, halting reader access until all writers conclude their tasks. This design can result in reader starvation if many writers contend for the semaphore, thus rwsems are best suited for scenarios where write access is infrequent and short-lived.
-4. **Atomic Operations:** ensure that certain operations on shared data structures are performed indivisibly, without interruption. Arch Linux utilizes atomic operations extensively for synchronization purposes. Linux offers two categories of atomic operations: those involving integer variables and those focusing on individual bits within variables. Atomic operations on integer variables in C, such as `a = a + 1`, don't guarantee atomicity in the Linux kernel. To address this, Linux introduces the `atomic_t` data type to distinguish between atomic and non-atomic operations. Declaration of an `atomic_t` variable follows the format `atomic_t variable;`, indicating that this variable is intended for atomic operations only. The Linux kernel provides various functions for atomic operations on atomic variables, including:
+1. **Mutexes and Semaphores:** Arch Linux uses mutexes and semaphores to control access to shared resources among processes. Mutexes allow exclusive access to a resource, while semaphores allow both exclusive and shared access based on a count. The Linux kernel provides an implementation of semaphores, which are declared and initialized using the `struct semaphore` type. Semaphores can be created directly and initialized using `void sema_init(struct semaphore *sem, int val);` where `val` is the initial value to assign to a semaphore. Another way is using helper functions and macros like `DECLARE_MUTEX(name);` and `DECLARE_MUTEX_LOCKED(name);`. In this scenario, the outcome is a semaphore variable named `name` that gets initialized to 1 via `DECLARE_MUTEX` or 0 via `DECLARE_MUTEX_LOCKED`. In the latter scenario, the mutex commences in a locked state, necessitating explicit unlocking before any thread can gain access. For cases where the mutex needs to be initialized during runtime, such as when dynamically allocated, utilize either of the functions `void init_MUTEX(struct semaphore *sem);` or `void init_MUTEX_LOCKED(struct semaphore *sem);`. Further, the `down` function decrements the value of the semaphore, while `down_interruptible` allows interruption and `down_trylock` returns immediately if the semaphore is unavailable. There are three versions of down: `void down(struct semaphore *sem);`, `int down_interruptible(struct semaphore *sem);`, and `int down_trylock(struct semaphore *sem);`. After a thread has effectively invoked one of the variants of `down`, it's considered to be "holding" the semaphore. Subsequently, that thread is granted access to the critical section guarded by the semaphore. Upon completing operations necessitating mutual exclusion, the semaphore must be relinquished. The `void up(struct semaphore *sem);` function is used to increment the value of a semaphore, effectively releasing a resource. When you call `up()` on a semaphore, it increases the semaphore count, which indicates that a resource has become available. This allows other processes or threads waiting on that semaphore to proceed, potentially accessing the shared resource it guards. Proper handling of semaphores, especially in error paths, is crucial to prevent processes from hanging and ensure system stability.
+3. **Spinlocks:** are used to protect critical sections of code from simultaneous access by multiple threads. When a thread tries to acquire a spinlock that is already held by another thread, it spins in a loop until the lock becomes available. Semaphores and spinlocks are essential mechanisms in the Linux kernel for ensuring mutual exclusion. While semaphores are versatile and can handle sleeping processes, spinlocks are primarily used in non-sleeping contexts like interrupt handlers, offering higher performance. Spinlocks operate by repeatedly checking for lock availability, with atomic operations ensuring thread safety and deadlock avoidance. They are typically employed in multiprocessor systems but are also relevant for uniprocessor systems with preemptive kernels due to concurrency concerns. Proper locking mechanisms are crucial even in uniprocessor systems without preemption to prevent infinite spinning. The necessary header file for the spinlock primitives is `<linux/spinlock.h>`. A spinlock is represented by the data type `spinlock_t`. Similar to other data structures, a spinlock needs initialization. This can occur during compilation using `spinlock_t my_lock = SPIN_LOCK_UNLOCKED;` or during runtime using `void spin_lock_init(spinlock_t *lock);`. Prior to entering a critical section, the code must acquire the required lock through `void spin_lock(spinlock_t *lock);`. It's important to note that all spinlock waits are inherently uninterruptible. Once `spin_lock` is called, the code will spin until the lock becomes available. To release a previously obtained lock, use `void spin_unlock(spinlock_t *lock);`.
+4. **Read-Write Locks:** Arch Linux employs read-write locks to allow concurrent read access to a resource while ensuring exclusive write access. This mechanism enhances performance by permitting multiple readers simultaneously but ensuring only one writer at a time. The Linux kernel offers a specialized semaphore type known as `rwsem`, or "reader/writer semaphore," which is occasionally beneficial in driver development. Including `<linux/rwsem.h>` is necessary for code utilizing rwsems. The relevant data structure for reader/writer semaphores is `struct rw_semaphore`, requiring explicit initialization at runtime with `void init_rwsem(struct rw_semaphore *sem);`. A freshly initialized rwsem is ready for the next task (either reader or writer). For read-only access, code interfaces with `void down_read(struct rw_semaphore *sem);`, `int down_read_trylock(struct rw_semaphore *sem);`, and `void up_read(struct rw_semaphore *sem);` such that `down_read` grants read-only access to protected resources, possibly concurrently with other readers and `down_read_trylock` returns nonzero if access was granted immediately, else 0. Success with `down_read` necessitates releasing the rwsem with `up_read`. Similarly, for writers, the functions `void down_write(struct rw_semaphore *sem);`, `int down_write_trylock(struct rw_semaphore *sem);`, `void up_write(struct rw_semaphore *sem);`, and `void downgrade_write(struct rw_semaphore *sem);` are used. These functions behave akin to their reader counterparts, providing write access. `downgrade_write` allows other readers in after performing quick changes. An `rwsem` permits either one writer or numerous readers to hold the semaphore. Writers take precedence, halting reader access until all writers conclude their tasks. This design can result in reader starvation if many writers contend for the semaphore, thus rwsems are best suited for scenarios where write access is infrequent and short-lived.
+5. **Atomic Operations:** ensure that certain operations on shared data structures are performed indivisibly, without interruption. Arch Linux utilizes atomic operations extensively for synchronization purposes. Linux offers two categories of atomic operations: those involving integer variables and those focusing on individual bits within variables. Atomic operations on integer variables in C, such as `a = a + 1`, don't guarantee atomicity in the Linux kernel. To address this, Linux introduces the `atomic_t` data type to distinguish between atomic and non-atomic operations. Declaration of an `atomic_t` variable follows the format `atomic_t variable;`, indicating that this variable is intended for atomic operations only. The Linux kernel provides various functions for atomic operations on atomic variables, including:
     1. `atomic_set(atomic_t *a, int value);` // Sets the value at memory location a
     2. `atomic_add(int val, atomic_t *a);` // Adds val to the value at memory location a
     3. `atomic_read(const atomic_t *a);` // Reads the value of the atomic_t at a
     4. `atomic_inc(atomic_t *a);` // Increments the value at a atomically
     5. `atomic_dec(atomic_t *a);` // Decrements the value at a atomically
     6. `atomic_sub(int val, atomic_t *a);` // Subtracts the value at a by the amount val
-5. **Lightweight PI-futexes:** Lightweight Priority Inheritance Futexes (Fast User-space Mutex) are an advanced synchronization mechanism in the Linux kernel designed for efficient user-space synchronization. Arch Linux harnesses Lightweight PI-futexes to implement sophisticated synchronization constructs within user-space applications, ensuring optimal performance and reliability. The reason we use Priority Inheritance is that implementing PI in user-space aids determinism for applications, optimizing latencies. In user-space, PI-enabled pthread mutexes work similarly to futex-based locks, with atomic operations handling locking and unlocking without kernel involvement. For the slow path, two new futex operations are introduced: `FUTEX_LOCK_PI` and `FUTEX_UNLOCK_PI`. If lock acquisition fails, `FUTEX_LOCK_PI` is invoked, initiating kernel tasks to establish a futex queue and assign a 'PI state' structure. Once acquired, the task updates the futex value and returns ownership to user-space. If unlock succeeds, no kernel operations occur. If it fails due to the `FUTEX_WAITERS` bit being set, `FUTEX_UNLOCK_PI` is called, unlocking the futex and releasing associated resources in the kernel. In Linux, PI-futexes are used to prevent priority inversion in synchronization scenarios. Priority inversion occurs when a low-priority thread holds a lock needed by a high-priority thread, causing the high-priority thread to wait unnecessarily. With PI-futexes, the priority of the holder of a lock is temporarily boosted to the priority of the waiting thread, thus preventing priority inversion. 'Robustness' and 'PI' are independent futex properties: This indicates that the properties of being "robust" (ensuring proper behavior even if a thread is terminated abruptly) and being a PI-futex are separate attributes. In other words, a futex can be either robust or PI, or it can possess both properties simultaneously, or none of them. Futexes can have the following combinations of properties: (Not robust, not PI), (Robust, not PI), (Not robust, PI), or (Robust, PI). They are called "lightweight" for three main reasons:
+6. **Lightweight PI-futexes:** Lightweight Priority Inheritance Futexes (Fast User-space Mutex) are an advanced synchronization mechanism in the Linux kernel designed for efficient user-space synchronization. Arch Linux harnesses Lightweight PI-futexes to implement sophisticated synchronization constructs within user-space applications, ensuring optimal performance and reliability. The reason we use Priority Inheritance is that implementing PI in user-space aids determinism for applications, optimizing latencies. In user-space, PI-enabled pthread mutexes work similarly to futex-based locks, with atomic operations handling locking and unlocking without kernel involvement. For the slow path, two new futex operations are introduced: `FUTEX_LOCK_PI` and `FUTEX_UNLOCK_PI`. If lock acquisition fails, `FUTEX_LOCK_PI` is invoked, initiating kernel tasks to establish a futex queue and assign a 'PI state' structure. Once acquired, the task updates the futex value and returns ownership to user-space. If unlock succeeds, no kernel operations occur. If it fails due to the `FUTEX_WAITERS` bit being set, `FUTEX_UNLOCK_PI` is called, unlocking the futex and releasing associated resources in the kernel. In Linux, PI-futexes are used to prevent priority inversion in synchronization scenarios. Priority inversion occurs when a low-priority thread holds a lock needed by a high-priority thread, causing the high-priority thread to wait unnecessarily. With PI-futexes, the priority of the holder of a lock is temporarily boosted to the priority of the waiting thread, thus preventing priority inversion. 'Robustness' and 'PI' are independent futex properties: This indicates that the properties of being "robust" (ensuring proper behavior even if a thread is terminated abruptly) and being a PI-futex are separate attributes. In other words, a futex can be either robust or PI, or it can possess both properties simultaneously, or none of them. Futexes can have the following combinations of properties: (Not robust, not PI), (Robust, not PI), (Not robust, PI), or (Robust, PI). They are called "lightweight" for three main reasons:
     1. In user-space fast paths, PI-enabled futexes require no kernel intervention or additional complexity. There are no registration or extra kernel calls; just fast atomic operations in user-space.
     2. Even in slow paths, the system call and scheduling pattern closely resemble regular futexes, maintaining efficiency.
     3. The in-kernel PI implementation simplifies around the mutex abstraction, with strict rules like single ownership and no recursive locking.
@@ -148,12 +130,8 @@ Arch Linux, like other Unix-like operating systems, employs various strategies t
 ### Memory Management
 ### File Management
 
-</details>
 
 ## Part 2: Cloud Computing OS (Arch Linux)
-
-<details>
-  <summary> Click to expand/collapse</summary>
 
 ### Trends in Operating Systems
 ### What Constitutes a Cloud Computing OS?
@@ -165,25 +143,15 @@ Arch Linux, like other Unix-like operating systems, employs various strategies t
 #### Updates and Stability
 #### Licensing and Cost
 
-</details>
-
 
 ## Part 3: Additional Considerations (Best Practices in OS)
-
-<details>
-  <summary> Click to expand/collapse</summary>
 
 ### Legal and Ethical Issues
 > A lot of that momentum comes from the fact that Linux is free. **— Nat Friedman**
 ### Solutions to Issues
 
-</details>
-
 
 ## Conclusion
-
-<details>
-  <summary> Click to expand/collapse</summary>
 
 ### Overview
 ### Linux vs. Our Current Daily Drivers
@@ -193,24 +161,7 @@ Arch Linux, like other Unix-like operating systems, employs various strategies t
 ### Further Research
 ### Building Our Own Distro!
 
-</details>
-
-## Appendix of Figures
-
-<details>
-  <summary> Click to expand/collapse</summary>
-
-#### Synchronization-figures
-![](Assets/banner.png)
-
-</details>
-
 ## Resources
-
-<details>
-  <summary> Click to expand/collapse</summary>
-  [1] 
-</details>
 
 ## Terms of Use
 Copyright © 2024 All Contributors
