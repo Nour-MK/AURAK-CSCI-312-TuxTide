@@ -23,7 +23,6 @@ This study aims to academically investigate operating systems, focusing on Arch 
 |3| Khawla Alhammadi  | 2021004956| [Email](mailto:khawla.alhammadi@aurak.ac.ae), [Github](https://github.com/Khawlaalh)                                                  | 1. Prepared executive summary. <br> 2. Compiled a glossary in the footnotes. <br> 3. Conducted research on OS trends. |
 |4| Sarah Alsuwaidi   | 2021004782| [Email](mailto:sarah.alsuwaidi@aurak.ac.ae), [Github](https://github.com/SarahAlsuwaidi)                                                   | 1. Conducted research on cloud computing OSes. <br> 2. Compared OS of Part 1 with OS of Part 2. <br> 3. Conducted research on legal and ethical issues.  |
 |5| Ahmad Hammoudeh   | 2021004915| [Email](mailto:ahmad.hammoudeh@aurak.ac.ae), [Github](https://github.com/ahmaadmohd)          | 1. Provided solutions to issues identified. <br> 2. Wrote the conclusion. <br> 3. Formatted resources in APA 7th edition style. |
-
 |6| Urita Sadallah    | 2021004899| [Email](mailto:urita.sadallah@aurak.ac.ae), [Github](https://github.com/uritaaquila)         | 1. Conducted research on synchronization. <br> 2. Conducted research on deadlock. <br> 3. Prepared presentation slides. |
  
 
