@@ -98,8 +98,6 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 #### Arch Linux History
 Judd Vinet, a Canadian programmer, started developing Arch Linux in early 2001. Today, this distribution ranks as one of the major distributions shaping the Linux world today. Its first official release, Arch Linux 0.1, was released on March 11, 2002. Inspired by the elegant simplicity of Slackware, BSD, PLD Linux and CRUX, but still disappointed because of the lack of package management at the time, Vinet built it's distribution according to principles similar to these distribution principles. But going further, he also wrote a package management tool called Pacman to automatically manage the installation, removal, and upgrading of packages on Arch.
 
-At the end of 2007, Vinet ceased active participation as an Arch developer. He easily handed over the reins to American programmer Aaron Griffin, who led the distribution until 2020 when he resigned, and Levente Polyak, a Hungarian-born Linux developer based in Germany, took over. assumed the position of head of the Arch. One of the biggest distribution-related changes occurred between 2012 and 2013, when the traditionally used System V init system was replaced by systemd. A few years later, on January 25, 2017, the Arch Linux developers announced that support for the i686 architecture would be phased out due to its decreasing popularity among the developers and the community.
-
 
 ## Part 1: Daily Driver OS (Arch Linux)
 
