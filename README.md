@@ -96,7 +96,6 @@ The Linux architecture can be depicted as a layered structure. Starting from the
 
 
 #### Arch Linux History
-Judd Vinet, a Canadian programmer, started developing Arch Linux in early 2001. Today, this distribution ranks as one of the major distributions shaping the Linux world today. Its first official release, Arch Linux 0.1, was released on March 11, 2002. Inspired by the elegant simplicity of Slackware, BSD, PLD Linux and CRUX, but still disappointed because of the lack of package management at the time, Vinet built it's distribution according to principles similar to these distribution principles. But going further, he also wrote a package management tool called Pacman to automatically manage the installation, removal, and upgrading of packages on Arch.
 
 
 ## Part 1: Daily Driver OS (Arch Linux)
