@@ -138,6 +138,12 @@ Arch Linux, being a distribution of Linux, utilizes various synchronization mech
     3. The in-kernel PI implementation simplifies around the mutex abstraction, with strict rules like single ownership and no recursive locking.
 
 ### Deadlock
+Arch Linux, like other Unix-like operating systems, employs various strategies to prevent and handle deadlocks, ensuring system stability and reliability. These strategies include (but are not limited to):
+1. **Resource Ordering:** Arch Linux encourages developers to adhere to a strict order when acquiring multiple resources. By consistently acquiring resources in the same predetermined order, the system reduces the likelihood of circular dependencies that can lead to deadlocks. For example, if a process requires both resource A and resource B, it should always acquire resource A before attempting to acquire resource B.
+2. **Timeouts:** In scenarios where deadlocks cannot be entirely prevented, Arch Linux may implement timeout mechanisms. Threads attempting to acquire resources may be subject to a specified time limit. If a thread is unable to obtain the necessary resources within this timeframe, it releases the resources it currently holds and retries later. This approach prevents threads from indefinitely blocking due to deadlock situations, promoting system responsiveness.
+3. **Deadlock Detection:** Arch Linux may utilize deadlock detection algorithms to proactively identify and resolve deadlocks. These algorithms periodically analyze the resource allocation graph to detect cycles indicative of potential deadlocks. Upon detection, the system takes appropriate measures to break the deadlock, such as releasing resources or forcibly terminating processes involved in the deadlock. By swiftly addressing deadlock conditions, Arch Linux minimizes their impact on system performance and user experience.
+4. **Resource Preemption:** In critical scenarios, Arch Linux may employ resource preemption to break potential deadlocks. This involves preemptively revoking resources from processes to resolve deadlock situations. For instance, if a process holds a resource required by another process to progress, Arch Linux may forcibly reclaim the resource from the holding process, allowing the dependent process to proceed. Resource preemption ensures the timely resolution of deadlocks, preventing prolonged system stagnation and facilitating continuous operation.
+
 ### Memory Management
 ### File Management
 
