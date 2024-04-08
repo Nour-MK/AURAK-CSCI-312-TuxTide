@@ -1,4 +1,4 @@
-# <p align="center">TuxTide[^1] Test: An OS Case Study</p>
+# <p align="center">TuxTide[^1]: An OS Case Study</p>
 ## <p align="center">Analyzing Arch Linux's Versatility from Desktop to Cloud</p>
 [^1]: The title "TuxTide" (i.e. Tux Tide) represents a convergence associated with Tux, the Linux mascot. It implies a surge or wave of activity, innovation, or prominence related to Linux or open-source technology and suggests the powerful force and momentum driven by the Linux community (both developers and users), with Tux as its emblem.
 
