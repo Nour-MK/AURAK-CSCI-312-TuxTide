@@ -68,7 +68,7 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2. [Linux vs. macOS](#linux-vs-macos)<br>
 &nbsp;6.3. [Further Research](#further-research)<br>
 &nbsp;6.4. [Building Our Own Distro!](#building-our-own-distro)<be>
-7. [Appendix of Figures](#appendix-of-figures)<br>
+7. [Gallery of Figures](#gallery-of-figures)<br>
 8. [Resources](#resources)<br>
 9. [Terms of Use](#terms-of-use)<br>
 
@@ -185,7 +185,7 @@ This case study project has provided us with a valuable opportunity to reevaluat
 ### Further Research
 ### Building Our Own Distro!
 
-## Appendix of Figures
+## Gallery of Figures
 <p align="center">
     <img width = "100" height="100" src="Assets/circulararchitecture.png" >
     <img width = "100" height="100" src="Assets/architecture.png" >
