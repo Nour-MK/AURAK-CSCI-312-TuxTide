@@ -188,8 +188,15 @@ This case study project has provided us with a valuable opportunity to reevaluat
 <p align="center">
     <img width = "100" height="100" src="Assets/circulararchitecture.png" >
     <img width = "100" height="100" src="Assets/architecture.png" >
-      <img width = "100" height="100" src="Assets/distrowars.png" >
+    <img width = "100" height="100" src="Assets/distrowars.png" >
     <img width = "100" height="100" src="Assets/oswars.png" >
+    <img width = "100" height="100" src="Assets/Picture2.png" >
+    <img width = "100" height="100" src="Assets/Picture3.png" >
+    <img width = "100" height="100" src="Assets/Picture4.png" >
+    <img width = "100" height="100" src="Assets/Picture5.png" >
+    <img width = "100" height="100" src="Assets/Picture6.png" >
+    <img width = "100" height="100" src="Assets/Picture7.png" >
+    <img width = "100" height="100" src="Assets/Picture8.png" >
     <img src="https://picsum.photos/100/100" >
       <img src="https://picsum.photos/100/100" >
     <img src="https://picsum.photos/100/100" >
