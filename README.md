@@ -170,10 +170,10 @@ This case study project has provided us with a valuable opportunity to reevaluat
 ### Building Our Own Distro!
 
 ## Appendix of Figures
-<p>
-    <img src="https://picsum.photos/100/100" >
-    <img src="https://picsum.photos/100/100" >
-      <img src="https://picsum.photos/100/100" >
+<p align="center">
+    <img width = "100" height="100" src="Assets/circulararchitecture.png" >
+    <img width = "100" height="100" src="Assets/architecture.png" >
+    <img width = "100" height="100" src="Assets/oswars.png" >
     <img src="https://picsum.photos/100/100" >
       <img src="https://picsum.photos/100/100" >
     <img src="https://picsum.photos/100/100" >
