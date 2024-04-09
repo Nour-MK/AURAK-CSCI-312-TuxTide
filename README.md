@@ -92,6 +92,7 @@ Linux, as a kernel, forms the foundation for a plethora of distributions tailore
 ### Background Information
 #### The Man & The Penguin
 > Only wimps use tape backup. Real men just upload their [important stuff](https://github.com/torvalds/linux) on ftp and let the rest of the world mirror it. **— Linus Torvalds**
+
 Linus Torvalds, the creator of the Linux kernel, is often affectionately associated with penguins due to the mascot of Linux being Tux, the penguin. However, Torvalds' relationship with penguins is more a matter of happenstance and symbolism than any deep personal connection. The story behind the penguin mascot dates back to 1996 when Torvalds was looking for a fun symbol to represent Linux. He had mentioned in an online forum that he was bitten by a little penguin during a visit to the National Zoo & Aquarium in Canberra, Australia. Inspired by this event and intrigued by the concept of penguins, Torvalds decided to adopt the image of a penguin as the mascot for Linux. He named the penguin Tux, a play on "Tux" being short for Torvalds' UniX, and also a reference to tuxedos, which are often worn at formal events.
 
 #### Linux History
