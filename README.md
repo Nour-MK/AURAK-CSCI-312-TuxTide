@@ -17,7 +17,7 @@
 This study aims to academically investigate operating systems, focusing on Arch Linux. It begins with an Executive Summary and Glossary to provide brief insights and clarify technical terms used throughout the study. The Introduction section outlines the criteria for selecting operating systems and presents background information on Linux and Arch Linux history. Parts 1 and 2 discuss Arch Linux's functionality as both a Daily Driver OS and a Cloud Computing OS. Additionally, Part 2 compares Arch Linux's roles in daily usage and cloud computing environments, analyzing factors such as implementation, performance, hardware support, community and support, updates and stability, as well as licensing and cost considerations. Part 3 addresses Additional Considerations, including legal and ethical issues related to operating systems and proposing potential solutions. The study concludes by giving an overview to recap all discussed findings, comparing Linux with mainstream operating systems like Windows and macOS, suggesting avenues for further research, and considering the possibility of constructing a custom Linux distribution of our own! Finally, a list of resources is provided for reference and further exploration.
 
 To view this paper in day or night theme, adjust your settings [here](https://github.com/settings/appearance). <br>
-To search for a specific word, press `Ctrl + F` on Windows or `Command + F` on macOS. 
+To search for a specific word, press <kbd>Ctrl+F</kbd> on Windows or <kbd>⌘+F</kbd> on macOS. 
 
 ## Work Distribution & Acknowledgements
 | | Member            | ID        | Contact                                                                                        | Task |
