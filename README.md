@@ -171,10 +171,134 @@ In considering Arch Linux, it's essential to recognize its target audience: enth
 ## Part 1: Daily Driver OS (Arch Linux)
 
 ### Processes and Threads
-In the domain of operating systems, processes and threads are fundamental concepts that govern the execution of programs and facilitate multitasking. Processes represent running instances of programs, each with its own memory space, resources, and execution environment. Threads, on the other hand, are lightweight execution units within a process, sharing the same memory space and resources but possessing distinct execution paths. Together, processes and threads enable concurrent execution, allowing multiple tasks to run simultaneously on a single processor or across multiple processors in a multicore system. Processes serve as the foundation of multitasking, allowing the operating system to manage multiple programs concurrently. Each process operates independently, with its own address space, file descriptors, and other resources. Processes communicate and synchronize through inter-process communication mechanisms provided by the operating system, such as pipes, sockets, and shared memory. Threads, on the other hand, provide a mechanism for concurrent execution within a process. By sharing memory and resources, threads can execute tasks simultaneously, enhancing performance and responsiveness. Threads within the same process can communicate and synchronize more efficiently than processes, as they share the same address space and can access shared data directly. The distinction between processes and threads lies in their overhead and isolation. Processes incur greater overhead due to their separate address spaces and resource allocations, but offer stronger isolation and fault tolerance. Threads, on the other hand, are more lightweight and efficient, but share resources and are more susceptible to errors that can affect the entire process. Understanding processes and threads is essential for system designers and developers to create efficient and scalable software. By leveraging processes and threads effectively, operating systems can maximize resource utilization, enhance system responsiveness, and support complex multitasking environments.
+In the domain of operating systems, processes and threads are fundamental concepts that govern the execution of programs and facilitate multitasking. Processes represent running instances of programs, each with its own memory space, resources, and execution environment. Threads, on the other hand, are lightweight execution units within a process, sharing the same memory space and resources but possessing distinct execution paths. Together, processes and threads enable concurrent execution, allowing multiple tasks to run simultaneously on a single processor or across multiple processors in a multicore system. Processes serve as the foundation of multitasking, allowing the operating system to manage multiple programs concurrently. Each process operates independently, with its own address space, file descriptors, and other resources. Processes communicate and synchronize through inter-process communication mechanisms provided by the operating system, such as pipes, sockets, and shared memory. Threads, on the other hand, provide a mechanism for concurrent execution within a process. By sharing memory and resources, threads can execute tasks simultaneously, enhancing performance and responsiveness. Threads within the same process can communicate and synchronize more efficiently than processes, as they share the same address space and can access shared data directly. The distinction between processes and threads lies in their overhead and isolation. Processes incur greater overhead due to their separate address spaces and resource allocations but offer stronger isolation and fault tolerance. Threads, on the other hand, are more lightweight and efficient, but share resources and are more susceptible to errors that can affect the entire process. Understanding processes and threads is essential for system designers and developers to create efficient and scalable software. By leveraging processes and threads effectively, operating systems can maximize resource utilization, enhance system responsiveness, and support complex multitasking environments.
+
+A process is an operating system abstraction that groups together multiple resources: An address space, one or more threads, opened files, sockets, semaphores, shared memory regions, timers, signal handlers, and many other resources and status information. All this information is grouped in the Process Control Group (PCB). In Linux this is `struct task_struct`. A thread is the basic unit that the kernel process scheduler uses to allow applications to run the CPU. A thread has the following characteristics: Each thread has its own stack and together with the register values it determines the thread execution state, the kernel schedules threads not processes and user-level threads (e.g. fibers, coroutines, etc.) are not visible at the kernel level, and the typical thread implementation is one where the threads are implemented as a separate data structure which is then linked to the process data structure. Linux uses a different implementation for threads. The basic unit is called a task and it is used for both threads and processes. Instead of embedding resources in the task structure, it has pointers to these resources. Thus, if two threads are the same process will point to the same resource structure instance. If two threads are in different processes they will point to different resource structure instances. Linux implements the standard Unix process management APIs such as `fork()`, `exec()`, `wait()`, as well as standard POSIX threads. However, Linux processes and threads are implemented particularly differently than other kernels. There are no internal structures implementing processes or threads, instead, there is a `struct task_struct` that describes an abstract scheduling unit called task. A task has pointers to resources, such as address space, file descriptors, IPC ids, etc. The resource pointers for tasks that are part of the same process point to the same resources, while resources of tasks of different processes will point to different resources. `cgroup` is a mechanism to organize processes hierarchically and distribute system resources along the hierarchy in a controlled and configurable manner.
+
+In Linux, a new thread or process is created with the `clone()` system call. Both the `fork()` system call and the `pthread_create()` function uses the `clone()` implementation. It allows the caller to decide what resources should be shared with the parent and which should be copied or isolated: <br>
+`CLONE_FILES` // shares the file descriptor table with the parent <br>
+`CLONE_VM` // shares the address space with the parent <br>
+`CLONE_FS` // shares the filesystem information (root directory, current directory) with the parent <br>
+`CLONE_NEWNS` // does not share the mount namespace with the parent <br>
+`CLONE_NEWIPC` // does not share the IPC namespace (System V IPC objects, POSIX message queues) with the parent <br>
+`CLONE_NEWNET` // does not share the networking namespaces (network interfaces, routing table) with the parent <br>
+For example, if `CLONE_FILES | CLONE_VM | CLONE_FS` is used by the caller then effectively a new thread is created. If these flags are not used then a new process is created.
+
+```c
+// This is a simplified version of the do_fork function, focusing on the essential steps involved in process creation. The actual implementation in the Linux kernel source code contains additional details and error handling.
+
+pid_t do_fork(unsigned long clone_flags,
+              unsigned long stack_start,
+              struct pt_regs *regs,
+              unsigned long stack_size,
+              int __user *parent_tidptr,
+              int __user *child_tidptr,
+              int trace)
+{
+    struct task_struct *p;
+    int trace_flag = 0;
+    long nr;
+    pid_t pid;
+
+    // Check if the process creation is being traced
+    if (trace & CLONE_PTRACE) {
+        // Set a flag for tracing
+        trace_flag = PTRACE_EVENT_CLONE;
+    }
+
+    // Create a new process by cloning the current one
+    nr = _do_fork(clone_flags, stack_start, stack_size,
+                  parent_tidptr, child_tidptr, 0);
+
+    // Handle errors during fork
+    if (unlikely(nr < 0)) {
+        // Return error code
+        return nr;
+    }
+
+    // Get the process ID of the newly created process
+    pid = nr;
+
+    // Check if tracing flag is set
+    if (trace_flag) {
+        // Notify the tracer about the new process
+        ptrace_event_pid(trace_flag, pid);
+    }
+
+    // Check if this is the child process
+    if (!pid) {
+        // Get the process structure of the child
+        p = current;
+
+        // Copy the register state from the parent
+        copy_thread(regs, clone_flags, stack_start, stack_size);
+
+        // Perform any necessary setup for the child process
+        // (e.g., set the child's thread ID, signal handlers, etc.)
+
+        // Wake up the parent process if it's waiting for the child
+        wake_up_new_task(p);
+
+        // Return 0 to the child process
+        return 0;
+    }
+
+    // Return the process ID to the parent process
+    return pid;
+}
+```
+
+In the 1980s, Unix systems experienced a surge in popularity across both business and academic sectors. However, this growth was accompanied by fragmentation, with two major variants dominating the landscape: AT&T's System V and the University of California's Berkeley Software Distribution (BSD). Complicating matters further, Unix vendors often customized their systems, leading to variations like "System V with BSD enhancements." Amidst this fragmentation, the Unix community recognized the need for standardization. The Institute of Electrical and Electronics Engineers (IEEE) responded by initiating the development of a standardized operating system interface, leveraging Unix as a foundational framework. This effort culminated in the POSIX standard, formally designated as 1003, which stands for Portable Operating System Interface. Established in 1988, POSIX aimed to provide a uniform interface that would enable developers to create applications capable of running seamlessly across different Unix-like systems. At its core, POSIX embodies the principle of compatibility and interoperability. A POSIX-compliant system ensures that regardless of the underlying operating system variant, the available options and functionalities remain consistent. This standardization simplifies application development and promotes ease of migration between different Unix environments. Despite its widespread adoption and influence, it's worth noting that most Linux distributions, while closely aligned with POSIX principles, may not be officially certified as fully compliant. However, major distributions such as Red Hat Enterprise Linux (RHEL) and Ubuntu have emerged as de facto standards within the Linux ecosystem. Given the increasing importance of interoperability, future efforts may focus on further standardization to enhance compatibility among Unix-like systems. Firstly, POSIX defines standardized interfaces for process creation, management, and communication, ensuring consistency across different Unix variants. This means that developers can write code for creating and managing processes using POSIX-compliant functions, and expect it to behave similarly across different POSIX-compliant systems. Secondly, POSIX specifies interfaces for threading, which allows developers to create and manage threads in a standardized way.
 
 ### Process Scheduling
 Process scheduling is a core component of operating systems that orchestrates the execution of multiple processes on a computer system's CPU (Central Processing Unit). At any given time, there are typically numerous processes competing for CPU time, and the role of the scheduler is to determine which process should execute next. The primary goal of process scheduling is to maximize system throughput, minimize response time, and ensure fair resource allocation among processes. To achieve these objectives, schedulers employ various algorithms and policies to make efficient use of CPU resources and optimize system performance. Schedulers typically operate in two main contexts: long-term scheduling and short-term scheduling. Long-term scheduling, also known as job scheduling, involves selecting processes from the pool of waiting processes and admitting them into the system for execution based on factors such as system load and resource availability. Short-term scheduling, or CPU scheduling, occurs more frequently and determines which process from the ready queue should be executed next on the CPU. CPU scheduling algorithms come in various flavors, each with its own trade-offs in terms of efficiency, fairness, and responsiveness. Some common CPU scheduling algorithms include First-Come, First-Served (FCFS), Shortest Job Next (SJN), Round Robin (RR), and Priority Scheduling. Each algorithm aims to balance the competing demands of different processes while considering factors such as process burst time, priority levels, and quantum sizes. Furthermore, modern operating systems often employ preemptive scheduling, where the scheduler can interrupt a running process and allocate CPU time to another process with higher priority or a shorter burst time. This preemptive behavior helps improve system responsiveness and ensures that no process monopolizes the CPU for an extended period.
+
+Threads and processes are both powerful tools for concurrent and parallel execution in a Linux environment, but they have different characteristics and are suited for different types of tasks. Understanding the differences between the two, and being familiar with the thread and process management functions provided by the Linux operating system, is crucial for making the most effective use of these tools. In Linux, threads are implemented as a lightweight alternative to processes, and they are known as "lightweight processes" or "LWP". They share the same memory space as the parent process and are scheduled by the kernel, which means they can communicate with each other more easily and efficiently. This makes them well-suited for tasks that require concurrent execution, such as GUI programming, web servers, and database systems. Processes, on the other hand, are independent, self-contained execution environments, with their own memory space. Each process has its own address space, file descriptors, and other resources, which means that communication between processes is more complex and resource-intensive. Processes are typically used for tasks that do not require concurrent execution, such as batch processing and scientific simulations. In Linux, the scheduler is responsible for managing the execution of threads and processes. Processes are typically scheduled by the operating system to run on a single CPU or core, while threads are scheduled by the operating system to run on multiple CPUs or cores. Both processes and threads are scheduled by the kernel for execution, but the scheduling algorithm may treat them differently. It's also possible to use both threads and processes in a single application. The handling of processes in an Operating System like Linux is a vital topic for understanding the working of the Kernel. The logic behind scheduling processes in the system and prioritizing them in a manner that is the most optimized and efficient, while considering some trade-offs gives an insight into real-life engineering behind low-level computer stuff. A policy in scheduler functionality defines the rules governing which processes are executed when, crucially impacting system performance and responsiveness. A key consideration within policy implementation involves distinguishing between I/O-bound and processor-bound processes. Striving for an optimal mix of these types ensures efficient resource utilization. Another aspect is process priority, determining the order in which processes are scheduled for execution. Processes with higher priority typically receive more attention from the scheduler. Additionally, the concept of timeslice plays a vital role. It refers to the duration for which a process can execute before being interrupted to allow another process to run, ensuring fairness and responsiveness in multitasking environments.
+
+In Linux, processes are categorized into two main types: real-time processes and conventional processes. Real-time processes are bound by strict response time constraints and must be executed promptly, regardless of system load. On the other hand, conventional processes do not have such strict constraints and may experience delays when the system is busy. Each process type is associated with a different scheduling algorithm, with real-time processes taking precedence over conventional ones in scheduling. The two scheduling policies for real-time processes are SCHED_RR and SCHED_FIFO, which dictate the runtime allocation and operation of the runqueue. Meanwhile, conventional processes are scheduled using the Completely Fair Scheduler (CFS) algorithm. Additionally, there are two main types of scheduling approaches: O(n) and O(1). O(n) scheduling divides the processor's time into epochs, with each task allowed to use at most one epoch. In contrast, O(1) scheduling ensures that processes are scheduled within a constant time, irrespective of the number of processes running. Dynamic priority scheduling is employed, where priorities are calculated dynamically at the time of process execution based on various factors.
+
+In operating systems, the occurrence of a context switch is pivotal, typically instigated by a kernel transition, commonly triggered via a system call or an interrupt. During such transitions, the registers pertaining to user space are preserved on the kernel stack. Subsequently, the `schedule()` function may be invoked, signifying the need for a context switch from one thread (T0) to another (T1). Essential to implementing efficient task scheduling is the ability to block the current thread. This operation involves setting the state of the current thread to either `TASK_INTERRUPTIBLE` or `TASK_UNINTERRUPTIBLE`, adding the task to a waiting queue, invoking the scheduler to select a new task from the READY queue, and finally performing the context switch to the chosen task. Interrupts serve as pivotal events that disrupt the regular execution flow of a program, arising from either hardware devices or the CPU itself. They can be classified based on their source into synchronous (exceptions) and asynchronous (interrupts). Synchronous interrupts, or exceptions, are triggered by conditions detected by the processor while executing an instruction, such as divide by zero or system calls. Asynchronous interrupts, or interrupts, originate from external events generated by I/O devices, like network packets arriving. Most interrupts are maskable, allowing temporary postponement of their handling by disabling interrupts until re-enabled. However, there are critical interrupts, referred to as non-maskable interrupts, that cannot be disabled or postponed. Furthermore, exceptions can be further categorized into processor-detected exceptions and programmed exceptions. Processor-detected exceptions arise when an abnormal condition is detected during instruction execution, while programmed exceptions are explicitly invoked via the int n instruction. To synchronize access to shared data between interrupt handlers and other concurrent activities, controlled enabling and disabling of interrupts are often necessary. This can be achieved at various levels, including the device level, PIC level, and CPU level, through instructions like `cli` (CLear Interrupt flag) and `sti` (SeT Interrupt flag). Additionally, architectures may support interrupt priorities, permitting interrupt nesting only for interrupts with higher priority levels. After an interrupt request is generated, the processor executes a series of events culminating in running the kernel interrupt handler, followed by a prescribed sequence to resume execution post-handler execution.
+
+A Multitasking Operating System by definition has the ability to execute multiple processes on the system simultaneously. On a single processor machine, it can give an illusion that all the processes are running simultaneously at the same time (actually the processor can focus on one process at any time, but the execution is not only the definition of the process, it is the whole thing from memory allocation and multiple processes spawning. Hence, the system seems to be having multiple processes running at the same time. A task that is marked as sleeping is also a process, it’s just the processor is busy with something else). On a multiprocessor machine, these processes are running simultaneously in parallel while some more processes are blocked or sleeping, waiting to get executed when a processor is free or the input from an external device is ready. There are two types of multitasking in operating systems: cooperative multitasking and preemptive multitasking. A very concise definition of them is that cooperative multitasking operating systems have no right to stop the process during the execution and the process has to exit on its own. On the other hand, a preemptive multitasking operating system has the right to stop the execution of the process at any time. Unix, at its core, has been implementing preemptive multitasking and Linux Kernel has been implementing preemptive multitasking (it’s obvious that if cooperative multitasking is used and a process hangs and does not exit due to any reason, it can potentially bring down the whole system). In understanding the dynamics of preemption within the kernel, we delineate between two configurations: non-preemptive and preemptive kernels. In a non-preemptive kernel setting, the kernel periodically checks whether the current process has exhausted its time slice. If so, a flag is set in interrupt context, and upon returning to userspace, the kernel assesses this flag and invokes `schedule()` if necessary. Conversely, in a preemptive kernel, the current task can be preempted even while executing in kernel mode. To manage this, special synchronization primitives like preempt_disable and preempt_enable are utilized. In preemptive kernels, preemption is automatically disabled when a spinlock is used. When a condition necessitating preemption arises, such as the expiration of a task's time slice, a flag is set. This flag is scrutinized when preemption is re-enabled, typically upon exiting a critical section through a `spin_unlock()` operation, prompting the scheduler to select a new task if required.
+
+```c
+static __always_inline struct rq *
+context_switch(struct rq *rq, struct task_struct *prev,
+         struct task_struct *next, struct rq_flags *rf)
+{
+    prepare_task_switch(rq, prev, next);
+    arch_start_context_switch(prev);
+
+    if (!next->mm) {                                // to kernel
+        enter_lazy_tlb(prev->active_mm, next);
+
+        next->active_mm = prev->active_mm;
+        if (prev->mm)                           // from user
+            mmgrab(prev->active_mm);
+        else
+            prev->active_mm = NULL;
+    } else {                                        // to user
+        membarrier_switch_mm(rq, prev->active_mm, next->mm);
+        switch_mm_irqs_off(prev->active_mm, next->mm, next);
+
+        if (!prev->mm) {                        // from kernel
+            rq->prev_mm = prev->active_mm;
+            prev->active_mm = NULL;
+        }
+    }
+
+    rq->clock_update_flags &= ~(RQCF_ACT_SKIP|RQCF_REQ_SKIP);
+
+    prepare_lock_switch(rq, next, rf);
+
+    switch_to(prev, next, prev);
+    barrier();
+
+    return finish_task_switch(prev);
+}
+```
+
+This code snippet is from the Linux kernel and represents the core functionality of a context switch, a fundamental operation in multitasking operating systems. A context switch involves switching the execution context from one process or thread (represented by `prev`) to another (represented by `next`). The function `context_switch` performs several crucial tasks to facilitate this transition. It first prepares for the task switch by calling `prepare_task_switch`, which handles any necessary setup. Then, architecture-specific operations are performed via `arch_start_context_switch`. The subsequent conditional block distinguishes between two scenarios: transitioning from kernel mode to user mode (to user) and vice versa (to kernel). If the next task is entering kernel mode, it performs lazy TLB switching and ensures proper handling of the memory management context. Conversely, if the next task is entering user mode, memory barriers are set and the memory management context is switched. Throughout this process, careful management of memory management units (MMUs) and memory contexts is crucial for maintaining system stability and security. Finally, the function concludes by preparing for locking switching, ensuring proper synchronization, and invoking the `switch_to` function to perform the actual register and stack switching. Upon completion, it returns control to the caller via `finish_task_switch`, finalizing the context switch operation. Overall, this code encapsulates the intricate mechanisms involved in transitioning between different execution contexts within the kernel, facilitating seamless multitasking in the operating system.
 
 ### Synchronization
 Synchronization in operating systems is a crucial concept that ensures orderly and coordinated execution of concurrent processes or threads sharing common resources. In a multitasking environment where multiple processes or threads run simultaneously, synchronization mechanisms are essential for preventing conflicts and maintaining data integrity. At its core, synchronization involves coordinating the activities of concurrent processes to avoid problems such as race conditions, where the outcome of execution depends on the timing of events. By enforcing synchronization, operating systems enable processes to interact safely and efficiently, thereby enhancing system reliability and performance. Various synchronization mechanisms exist, each tailored to address specific challenges in concurrent programming. These mechanisms include mutual exclusion techniques like locks, semaphores, and monitors, which restrict access to shared resources, ensuring that only one process can manipulate them at a time. Additionally, synchronization primitives such as condition variables facilitate communication and coordination between processes, allowing them to signal events or wait for specific conditions to occur. Arch Linux, being a distribution of Linux, utilizes various synchronization mechanisms provided by the Linux kernel. These mechanisms include (but are not limited to):
