@@ -185,7 +185,9 @@ In Linux, a new thread or process is created with the `clone()` system call. Bot
 For example, if `CLONE_FILES | CLONE_VM | CLONE_FS` is used by the caller then effectively a new thread is created. If these flags are not used then a new process is created.
 
 ```c
-// This is a simplified version of the do_fork function, focusing on the essential steps involved in process creation. The actual implementation in the Linux kernel source code contains additional details and error handling.
+// This is a simplified version of the do_fork function, focusing on the
+// essential steps involved in process creation. The actual implementation
+// in the Linux kernel source code contains additional details and error handling.
 
 pid_t do_fork(unsigned long clone_flags,
               unsigned long stack_start,
