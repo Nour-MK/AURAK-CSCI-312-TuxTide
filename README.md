@@ -73,8 +73,8 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.2. [Linux vs. macOS](#linux-vs-macos)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2.3. [Takeaways](#takeaways)<br>
 &nbsp;6.3. [Further Research](#further-research)<br>
-&nbsp;6.4. [Building Our Own Distro!](#building-our-own-distro)<be>
-&nbsp;6.5. [Getting Started with Linux: Essential Tools for Navigating the Command Line](#getting-started-with-linux)<be>
+&nbsp;6.4. [Building Our Own Distro!](#building-our-own-distro)<br>
+&nbsp;6.5. [Getting Started with Linux: Essential Tools for Navigating the Command Line](#getting-started-with-linux-essential-tools-for-navigating-the-command-line)<br>
 7. [Gallery of Figures](#gallery-of-figures)<br>
 8. [Resources](#resources)<br>
 9. [Terms of Use](#terms-of-use)<br>
