@@ -285,13 +285,26 @@ Before the invention of operating systems, computers operated without any underl
     <img width = "100" height="100" src="Assets/booting-process-in-operating-sys.png" >
     <img width = "100" height="100" src="Assets/boot-sequence-in-os.png" >
     <img width = "100" height="100" src="Assets/Flow-diagram-computer-booting-sequences.png" >
-    <img src="https://picsum.photos/100/100" >
-      <img src="https://picsum.photos/100/100" >
-    <img src="https://picsum.photos/100/100" >
-      <img src="https://picsum.photos/100/100" >
-    <img src="https://picsum.photos/100/100" >
-      <img src="https://picsum.photos/100/100" >
-    <img src="https://picsum.photos/100/100" >
+    <img width = "100" height="100" src="Assets/117174222_3721523681194316_8765414686709211646_n.jpg" >
+    <img width = "100" height="100" src="Assets/1338136415_8864e6508b_b.jpg" >
+    <img width = "100" height="100" src="Assets/1664549581741.jpg" >
+    <img width = "100" height="100" src="Assets/1ruzobjTDES3FdyfBo90BPw.png" >
+    <img width = "100" height="100" src="Assets/44218-linuxdistrotimeline-7.2.png" >
+    <img width = "100" height="100" src="Assets/4bd82d9b-8a37-4a1f-9907-26378f3a3fc1.jpg" >
+    <img width = "100" height="100" src="Assets/5-Figure1-1.png" >
+    <img width = "100" height="100" src="Assets/Basic-architecture-of-a-cloud-compute-node.png" >
+    <img width = "100" height="100" src="Assets/Linux_kernel_and_OpenGL_video_games.svg.png" >
+    <img width = "100" height="100" src="Assets/Tux.svg.png" >
+    <img width = "100" height="100" src="Assets/Virtualization.png" >
+    <img width = "100" height="100" src="Assets/eb3.jpg" >
+    <img width = "100" height="100" src="Assets/gettyimages-532505754-612x612.jpg" >
+    <img width = "100" height="100" src="Assets/large-visual-1.jpg" >
+    <img width = "100" height="100" src="Assets/linuxGraph.png" >
+    <img width = "100" height="100" src="Assets/os.png" >
+    <img width = "100" height="100" src="Assets/periodic-table-of-distro.png" >
+    <img width = "100" height="100" src="Assets/the-cloud-os-architecture.jpg" >
+    <img width = "100" height="100" src="Assets/screencapture-upload-wikimedia-org-wikipedia-commons-b-b5-Cloud-computing-svg-2024-04-13-02_38_03.png" >
+    <img width = "100" height="100" src="Assets/Cloud-Platform-Architecture-The-PaaS-layer-provides-customers-with-the-environment-and.png" >
 </p>
 
 ## Resources
