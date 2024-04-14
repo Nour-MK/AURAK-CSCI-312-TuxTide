@@ -470,6 +470,12 @@ Linux From Scratch (LFS) is a project that provides users with step-by-step inst
     <img width = "100" height="100" src="Assets/the-cloud-os-architecture.jpg" >
     <img width = "100" height="100" src="Assets/screencapture-upload-wikimedia-org-wikipedia-commons-b-b5-Cloud-computing-svg-2024-04-13-02_38_03.png" >
     <img width = "100" height="100" src="Assets/Cloud-Platform-Architecture-The-PaaS-layer-provides-customers-with-the-environment-and.png" >
+    <img width = "100" height="100" src="Assets/different-schedulars-in-kernal.png" >
+    <img width = "100" height="100" src="Assets/ditaa-0b8cde2be9bbd195ac9dcaeac978a8bbe0d3b805.png" >
+    <img width = "100" height="100" src="Assets/ditaa-35f7597b35b83bb0025ac2a5f158c9eae23050c8.png" >
+    <img width = "100" height="100" src="Assets/ditaa-f6b228332baf165f498d8a1bb0bc0bdb91ae50c5.png" >
+    <img width = "100" height="100" src="Assets/ditaa-fd771038e88b95def30ae9bd4df0b7bd6b7b3503.png" >
+
 </p>
 
 ## Resources
