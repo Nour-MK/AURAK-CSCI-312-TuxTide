@@ -10,8 +10,8 @@
     <img src="https://custom-icon-badges.demolab.com/badge/Project%20Status-Work%20in%20Progress-1793d1?style=for-the-badge&logo=activity&logoSource=feather&logoColor=white" alt="Project Status" title="Project Status" style="vertical-align:top; margin:4px"></a>
   <a href="https://custom-icon-badges.demolab.com/badge/Word%20Count-25k-1793d1?style=for-the-badge&logo=type&logoSource=feather&logoColor=white">
     <img src="https://custom-icon-badges.demolab.com/badge/Word%20Count-25k-1793d1?style=for-the-badge&logo=type&logoSource=feather&logoColor=white" alt="Word Count" title="Word Count" style="vertical-align:top; margin:4px"></a>
-  <a href="https://custom-icon-badges.demolab.com/badge/Views%20Count-10k-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white">
-    <img src="https://custom-icon-badges.demolab.com/badge/Views%20Count-386-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white" alt="Views Count" title="Views Count" style="vertical-align:top; margin:4px"></a>
+  <a href="https://custom-icon-badges.demolab.com/badge/Views%20Count-1416-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white">
+    <img src="https://custom-icon-badges.demolab.com/badge/Views%20Count-1416-1793d1?style=for-the-badge&logo=eye&logoSource=feather&logoColor=white" alt="Views Count" title="Views Count" style="vertical-align:top; margin:4px"></a>
 </p>
 
 Question: *What is the strongest animal in the tech industry?*
