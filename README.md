@@ -548,3 +548,4 @@ This case study is licensed under the [Creative Commons Attribution-NonCommercia
 This publication adheres to all regulatory laws and guidelines established by the American University of Ras Al Khaimah (AURAK) regarding the dissemination of academic materials.
 
 khaula & sarah #1
+#2
