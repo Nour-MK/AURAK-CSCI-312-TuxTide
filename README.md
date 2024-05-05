@@ -386,8 +386,16 @@ Linux's powerful file management system involves structuring files and directori
 
 To determine the file type in Linux, you can use the file command followed by the file path. For example, running the file example.txt will show the file type as "ASCII Text" if it is a regular text file. Similarly, for folders, running the Documents file will display it as a folder.
 ```
-user@scaler-topics: $ file Documents
+user@scaler-topics:~$ file Documents
 Documents: directory
+```
+To list files in a directory on Linux, you can use the `ls` command. The `ls` command displays a list of files and directories in the current directory. For example, to list files in the current directory, including Scaler_blog.txt, you can run the command below in your terminal: 
+```
+user@scaler-topics:~$ ls
+Desktop            Music            scaler-topics            Videos
+Documents          Pictures         snap
+Downloads          Public           Templates
+hostSharedVolume   scaler_blog.txt  vcard-personal-potfolio
 ```
 
 
