@@ -636,7 +636,293 @@ As we lower the anchor, let’s raise our mugs to Arch Linux—the island where 
 </p>
 
 ## Resources
-
+1. 5 terminal commands every Linux newbie should know. (n.d.). In PCWorld. Retrieved April 7, 2024, from https://www.pcworld.com/article/410917/5-terminal-commands-every-linux-newbie-should-know.html
+2. 5.3. Semaphores and Mutexes. (n.d.). Retrieved April 7, 2024, from https://www.makelinux.net/ldd3/chp-5-sect-3.shtml
+3. 8 things to know when switching from Windows to Linux \textbar TechTarget. (n.d.). In Data Center. Retrieved April 14, 2024, from https://www.techtarget.com/searchdatacenter/tip/8-things-to-know-when-switching-from-Windows-to-Linux
+4. 11 Best Linux Distributions for Power Users in 2024. (2023). https://www.tecmint.com/linux-distro-for-power-users/
+5. 17 Best Online Linux Terminals and Online Bash Editors. (2018). In It’s FOSS. https://itsfoss.com/online-linux-terminals/
+6. 25 Lesser Known Facts About GNU/Linux You Didn’t Know. (2023). https://www.tecmint.com/lesser-known-facts-about-gnu-linux/
+7. (25) Linux vs windows which one is best? \textbar LinkedIn. (n.d.). Retrieved April 14, 2024, from https://www.linkedin.com/pulse/linux-vs-windows-which-one-best-delhi-school-of-skill-development/
+8. (25) Thread/Process in Linux \textbar LinkedIn. (n.d.). Retrieved April 14, 2024, from https://www.linkedin.com/pulse/threadprocess-linux-amit-nadiger/
+9. (25) Why choose Linux over Windows? \textbar LinkedIn. (n.d.). Retrieved April 14, 2024, from https://www.linkedin.com/pulse/why-choose-linux-over-windows-mayank-singh/
+10. aaltouniversityace. (2012). Q&A session with Linus Torvalds: Why is Linux not competitive on desktop? https://www.youtube.com/watch?v=KFKxlYNfT_o
+11. Aaron Jack. (2021). The Most Legendary Programmers Of All Time. https://www.youtube.com/watch?v=KnAEIEnnvAQ
+12. AncientNexa. (2021). Thoughts on the people hopping right into Kali Linux ? In R/linuxmasterrace. www.reddit.com/r/linuxmasterrace/comments/pdmnsz/thoughts_on_the_people_hopping_right_into_kali/
+13. Android Authority. (2016). Processes and threads—Gary explains. https://www.youtube.com/watch?v=h_HwkHobfs0
+14. Anybody using Arch as their daily driver? (Page 10) / Arch Discussion / Arch Linux Forums. (n.d.). Retrieved April 12, 2024, from https://bbs.archlinux.org/viewtopic.php?id=222919&p=10
+15. apolinsky. (2011). Answer to “GNU/Hurd vs. GNU/Linux.” In Unix & Linux Stack Exchange. https://unix.stackexchange.com/a/23624
+16. Arch Linux. (n.d.). Retrieved April 12, 2024, from https://archlinux.org/
+17. Arch Linux. (2022, November 15). IONOS Digital Guide. https://www.ionos.com/digitalguide/server/configuration/arch-linux/
+18. Arch Linux. (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Arch_Linux&oldid=1217576872
+19. Arch Linux on a VPS - ArchWiki. (n.d.-a). Retrieved April 12, 2024, from https://wiki.archlinux.org/title/Arch_Linux_on_a_VPS
+20. Arch Linux on a VPS - ArchWiki. (n.d.-b). Retrieved May 1, 2024, from https://wiki.archlinux.org/title/Arch_Linux_on_a_VPS
+21. Arch Linux Operating System—Javatpoint. (n.d.). In Www.javatpoint.com. Retrieved April 9, 2024, from https://www.javatpoint.com/arch-linux-operating-system
+22. Arch Linux—ArchWiki. (n.d.-a). Retrieved April 9, 2024, from https://wiki.archlinux.org/title/Arch_Linux
+23. Arch Linux—ArchWiki. (n.d.-b). Retrieved April 8, 2024, from https://wiki.archlinux.org/title/Arch_Linux
+24. Arch Linux—Downloads. (n.d.). Retrieved April 9, 2024, from https://archlinux.org/download/
+25. Arch Linux—Package Search. (n.d.). Retrieved April 9, 2024, from https://archlinux.org/packages/
+26. Arch or CloudLinux, RHEL, SLES, Oracle Linux, CentOS, Debian, Gentoo / Networking, Server, and Protection / Arch Linux Forums. (n.d.). Retrieved April 12, 2024, from https://bbs.archlinux.org/viewtopic.php?id=140653
+27. Arch-based distributions—ArchWiki. (n.d.). Retrieved April 9, 2024, from https://wiki.archlinux.org/title/Arch-based_distributions
+28. Architecture of linux operating system. (2023). In GeeksforGeeks. https://www.geeksforgeeks.org/architecture-of-linux-operating-system/
+29. AUR (en)—Home. (n.d.). Retrieved April 9, 2024, from https://aur.archlinux.org/
+30. Awkward_Algae1684. (2023). Can TempleOS actually do anything? In R/AskProgramming. www.reddit.com/r/AskProgramming/comments/15k0m7r/can_templeos_actually_do_anything/
+31. backshesh. (2022a). What even IS Arch Linux? In R/archlinux. www.reddit.com/r/archlinux/comments/tj4jvb/what_even_is_arch_linux/
+32. backshesh. (2022b). What even IS Arch Linux? In R/archlinux. www.reddit.com/r/archlinux/comments/tj4jvb/what_even_is_arch_linux/
+33. Bazukiu, R., Anab, A., Gyemerah, S., & Daabo, M. (2023). An Overview of Computer Operating Systems and Emerging Trends. Asian Journal of Research in Computer Science, 16, 161–177. https://doi.org/10.9734/ajrcos/2023/v16i4380
+34. BeneficialBear. (2019). Why people commonly use Kali linux but not Black Arch linux? In R/hacking. www.reddit.com/r/hacking/comments/aez08y/why_people_commonly_use_kali_linux_but_not_black/
+35. Beyond Bash: 9 Lesser-Known Linux Shells and Their Capabilities. (2023). In It’s FOSS. https://itsfoss.com/shells-linux/
+36. BitPax. (2022). Terry Davis, an extremely talented programmer who was unfortunately diagnosed with schizophrenia, made an entire operating system in a language he made by himself, then compiled everything to machine code with a compiler he made himself. In R/programming. www.reddit.com/r/programming/comments/wg8pam/terry_davis_an_extremely_talented_programmer_who/
+37. BlackArch Linux—Penetration Testing Distribution. (n.d.). Retrieved April 8, 2024, from https://blackarch.org/
+38. Bloomberg Originals. (2015). My First Line of Code: Linus Torvalds. https://www.youtube.com/watch?v=S5S9LIT-hdc
+39. Bootstrapping (compilers). (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Bootstrapping_(compilers)&oldid=1214086986
+40. Borisov, B. (2020). Arch Linux: Everything You Need to Know About It. In Linuxiac. https://linuxiac.com/archlinux/
+41. Both, D. (n.d.). The impact of the Linux philosophy | Opensource.com. Retrieved May 1, 2024, from https://opensource.com/business/14/12/linux-philosophy
+42. brianbommarito. (2012). Has There Been Any Work to Use Emacs As a Full OS? In R/emacs. www.reddit.com/r/emacs/comments/t77xl/has_there_been_any_work_to_use_emacs_as_a_full_os/
+43. Brodie Robertson. (2021). Linux from Scratch First Impressions: Waste Of Time? https://www.youtube.com/watch?v=1eOdaXS-wVE
+44. Brodie Robertson. (2023). Linux On Scratch Is Incredibly Cursed. https://www.youtube.com/watch?v=aAkJpJ7-9Yw
+45. BTW, You Should Use Arch. And why you should consider using Linux… \textbar …. (2023). In Archive.ph. https://archive.ph/KkMnd
+46. cachedrive. (2019, May 8). Anyone Use Arch in AWS or Cloud? [Reddit Post]. R/Archlinux. www.reddit.com/r/archlinux/comments/bm894f/anyone_use_arch_in_aws_or_cloud/
+47. Cawley, C. (2017). 10 Risks When Dual Booting Operating Systems. In MUO. https://www.makeuseof.com/tag/risks-dual-booting-windows-linux-operating-systems/
+48. Chapellier, C. (2024). Tchapi/markdown-cheatsheet. https://github.com/tchapi/markdown-cheatsheet
+49. ChatGPT. (n.d.). Retrieved April 12, 2024, from https://chat.openai.com
+50. Chimera Linux. (n.d.). In Chimera Linux. Retrieved April 9, 2024, from https://chimera-linux.org/
+51. Chris Titus Tech. (2019). How to Dual Boot Windows and Linux \textbar Step By Step. https://www.youtube.com/watch?v=Pn7jZ5i1RTM
+52. Chris Titus Tech. (2022). Stop using Virtualbox, Here’s how to use QEMU instead. https://www.youtube.com/watch?v=Kq849CpGd88
+53. Cloud Computing vs Traditional Computing | Simplilearn. (2022, December 22). Simplilearn.Com. https://www.simplilearn.com/cloud-computing-vs-traditional-computing-article
+54. Cloud Computing vs Traditional Computing \textbar Simplilearn. (2022). In Simplilearn.com. https://www.simplilearn.com/cloud-computing-vs-traditional-computing-article
+55. Cloud Operating Systems: Principles, Uses Cases & Popular. (2023). In EDUCBA. https://www.educba.com/cloud-operating-systems/
+56. CloudLinux OS: The Platform for Linux Web Hosting. (n.d.). CloudLinux. Retrieved May 4, 2024, from https://www.cloudlinux.com/
+57. CloudLinux Pricing: Flexible Plans for Enhanced Web Hosting. (n.d.). CloudLinux. Retrieved May 4, 2024, from https://www.cloudlinux.com/pricing/
+58. CloudLinux—Updating CloudLinux OS software. (n.d.). CloudLinux. Retrieved May 4, 2024, from https://www.cloudlinux.com/getting-started-with-cloudlinux-os/43-getting-more-information/940-software-updates/
+59. Code Therapy w/ René Rebe. (2021). Watch kernel developer do Linux kernel development ;-). https://www.youtube.com/watch?v=KSs0v2Fmnhc
+60. Completely Fair Scheduler Research Project—YouTube. (n.d.). Retrieved April 14, 2024, from https://www.youtube.com/watch?v=rM6epd6JWrM
+61. Create a Linux VM instance in Compute Engine \textbar Compute Engine Documentation. (n.d.). In Google Cloud. Retrieved April 12, 2024, from https://cloud.google.com/compute/docs/create-linux-vm-instance
+62. Daemon (computing). (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Daemon_(computing)&oldid=1202623345
+63. daemon(7)—Arch manual pages. (n.d.). Retrieved May 4, 2024, from https://man.archlinux.org/man/daemon.7.en
+64. Darrick Wong. (2015). Linux Kernel Development, 1991-2015. https://www.youtube.com/watch?v=5iFnzr73XXk
+65. Das, M. (2023). Is Chrome OS a Linux Distribution? In Scaler Topics. https://www.scaler.com/topics/is-chrome-os-linux/
+66. Data Is Beautiful. (2022). Most Popular Operating Systems 1999—2022. https://www.youtube.com/watch?v=o14-gCNRwR8
+67. Deliable. (2023). How to make my own Linux distro? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/11ww1rz/how_to_make_my_own_linux_distro/
+68. Delony, D. (2022). What Is POSIX? How It Relates to Linux. In MUO. https://www.makeuseof.com/what-is-posix-how-it-relates-to-linux/
+69. DenshiVideo. (2021). Arch Linux: A ℂ𝕠𝕞𝕗𝕪 Install Guide. https://www.youtube.com/watch?v=68z11VAYMS8
+70. Dereference_operator. (2023). How you would compare Arch Linux to other Linux distro for both normal users and pro it sysadmin ? I mean what you prefer/dislike about it, and do you feel it could become as popular as Ubuntu or have a “Ubuntu moment” ? In R/archlinux. www.reddit.com/r/archlinux/comments/17c5tze/how_you_would_compare_arch_linux_to_other_linux/
+71. Difference between Concurrency and Parallelism. (2019). In GeeksforGeeks. https://www.geeksforgeeks.org/difference-between-concurrency-and-parallelism/
+72. Distrochooser. (n.d.). Retrieved April 3, 2024, from https://distrochooser.de
+73. DistroWatch.com: Put the fun back into computing. Use Linux, BSD. (n.d.). Retrieved April 9, 2024, from https://distrowatch.com/
+74. DrUbuntu1. (2014). Linus Torvalds Guided Tour of His Home Office. https://www.youtube.com/watch?v=jYUZAF3ePFE
+75. dthorpe123. (2020). Terry A Davis: Genius Or Simply Dedicated? In R/TempleOS. www.reddit.com/r/TempleOS/comments/gx6v4d/terry_a_davis_genius_or_simply_dedicated/
+76. Dwivedi, A. (2023). macOS vs Linux: Key Differences That You Should Know. In Scaler Topics. https://www.scaler.com/topics/linux-vs-mac/
+77. Edwards, B. (2021). Linux Turns 30: How A Hobby Project Conquered the World. In How-To Geek. https://www.howtogeek.com/754345/linux-turns-30-how-a-hobby-project-conquered-the-world/
+78. elodea00. (2021). How to choose a GUI’less distro? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/r9da41/how_to_choose_a_guiless_distro/
+79. ETA PRIME. (2020). Easily Run Linux On Android With AndroNix—Linux Distro on Android without root. https://www.youtube.com/watch?v=jvuufPWKF3k
+80. Expanded Main Page—OSDev Wiki. (n.d.). Retrieved April 13, 2024, from https://wiki.osdev.org/Main_Page
+81. FGaBoX_. (2021). Is it a good idea to use arch on my server? In R/archlinux. www.reddit.com/r/archlinux/comments/qbd111/is_it_a_good_idea_to_use_arch_on_my_server/
+82. File Management in Linux. (2020, February 18). GeeksforGeeks. https://www.geeksforgeeks.org/file-management-in-linux/
+83. Fireship. (2021a). Linux Directories Explained in 100 Seconds. https://www.youtube.com/watch?v=42iQKuQodW4
+84. Fireship. (2021b). Why so many distros? The Weird History of Linux. https://www.youtube.com/watch?v=ShcR4Zfc6Dw
+85. Fireship. (2022). TempleOS in 100 Seconds. https://www.youtube.com/watch?v=h7gf5M04hdg
+86. Fork bomb. (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Fork_bomb&oldid=1194163833
+87. freddiehaddad. (2022a). Why can’t we install drivers on Linux the way we do for Windows and MacOS? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/zz35va/why_cant_we_install_drivers_on_linux_the_way_we/
+88. freddiehaddad. (2022b). Why can’t we install drivers on Linux the way we do for Windows and MacOS? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/zz35va/why_cant_we_install_drivers_on_linux_the_way_we/
+89. Garuda KDE Dr460nized might be the coolest-looking Linux distro available. (n.d.). In ZDNET. Retrieved April 8, 2024, from https://www.zdnet.com/article/garuda-kde-dr460nized-might-be-the-coolest-looking-linux-distro-available/
+90. Garuda Linux Provides a Hassle-free Arch Experience With a Beautiful Neon Look [Review with Video]. (2020). In It’s FOSS. https://itsfoss.com/garuda-linux-review/
+91. Gary Explains. (2019). Windows Subsystem for Linux (WSL) Tutorial & How To. https://www.youtube.com/watch?v=av0UQy6g2FA
+92. Gary Newell. (2022). An Everyday Linux User Review Of Elementary OS 6.1. https://www.youtube.com/watch?v=gpnWYg1pjEo
+93. Gary Newell. (2023a). An Everyday Linux User Review Of Ubuntu 22.10. https://www.youtube.com/watch?v=YPOINZ6s2RE
+94. Gary Newell. (2023b). An Everyday Linux User Review Of Pop!_OS. https://www.youtube.com/watch?v=xcUblajh5hU
+95. Gary Newell. (2023c). How To Dual Boot Windows 11 And Fedora Linux. https://www.youtube.com/watch?v=u-rWfoRAzQI
+96. Gary Newell. (2023d). An Everyday Linux User Review Of Garuda Linux. https://www.youtube.com/watch?v=7PY65KATCgU
+97. Gary Newell. (2023e). An Everyday Linux User Review Of Zorin OS. https://www.youtube.com/watch?v=TrPi3sa0khA
+98. Gary Newell. (2023f). Puppy Linux Install Guide And Review. https://www.youtube.com/watch?v=gVe-Z_RxCPE
+99. Gaurav, S. (2022a). Process Scheduling in Linux. In Scaler Topics. https://www.scaler.com/topics/operating-system/process-scheduling/
+100. Gaurav, S. (2022b, October 11). File Management in Operating System. Scaler Topics. https://www.scaler.com/topics/file-management-in-operating-system/
+101. General recommendations—ArchWiki. (n.d.). Retrieved April 9, 2024, from https://wiki.archlinux.org/title/general_recommendations
+102. Glittering_Boot_3612. (2023). What is the advantage of MacOS over linux? In R/macbookpro. www.reddit.com/r/macbookpro/comments/18p35mi/what_is_the_advantage_of_macos_over_linux/
+103. GNOME For Linux? For Dummies? (n.d.). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/1025282.GNOME_For_Linux_For_Dummies_
+104. Google Cloud Platform. (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Google_Cloud_Platform&oldid=1218009731
+105. Graham, L. (1999). Legal implications of operating systems. IEEE Software, 16(1), 20–22. https://doi.org/10.1109/52.744560
+106. Grodzinsky, F. S., Miller, K., & Wolf, M. J. (2003). Ethical issues in open source software. Journal of Information, Communication and Ethics in Society, 1(4), 193–205. https://doi.org/10.1108/14779960380000235
+107. Heddings, A., & Lewis, N. (2018). What is ZSH, and Why Should You Use It Instead of Bash? In How-To Geek. https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/
+108. History of Linux. (2023). In GeeksforGeeks. https://www.geeksforgeeks.org/linux-history/
+109. History of Operating System. (2022). In GeeksforGeeks. https://www.geeksforgeeks.org/evolution-of-operating-system/
+110. History of Operating System Concepts Textbook. (2013). In Peter Baer Galvin’s Blog. https://galvin.info/history-of-operating-system-concepts-textbook/
+111. How can cloud-based operating systems help you? (n.d.). Retrieved April 12, 2024, from https://www.linkedin.com/advice/1/how-can-cloud-based-operating-systems-help-you
+112. How dangerous is to use Arch as the base of webhosting servers? / Arch Discussion / Arch Linux Forums. (n.d.-a). Retrieved April 13, 2024, from https://bbs.archlinux.org/viewtopic.php?id=133284
+113. How dangerous is to use Arch as the base of webhosting servers? / Arch Discussion / Arch Linux Forums. (n.d.-b). Retrieved May 4, 2024, from https://bbs.archlinux.org/viewtopic.php?id=133284
+114. How Linux Works: What Every Superuser Should Know. (n.d.-a). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/514432.How_Linux_Works
+115. How Linux Works: What Every Superuser Should Know. (n.d.-b). Retrieved April 9, 2024, from https://www.goodreads.com/book/show/514432.How_Linux_Works
+116. How much of a genius was Terry Davis actually? (2018). In R/AskProgramming. www.reddit.com/r/AskProgramming/comments/9oq33p/how_much_of_a_genius_was_terry_davis_actually/
+117. How to Check Running Process Time in Linux. (2024). https://www.tecmint.com/check-running-process-time-in-linux/
+118. How to Install Arch Linux. (2018, July 18). How to Install Arch Linux. https://shubhsherl.github.io//how-install-arch
+119. How to Make a Computer Operating System: 13 Steps (with Pictures). (n.d.). In wikiHow. Retrieved April 13, 2024, from https://www.wikihow.com/Make-a-Computer-Operating-System
+120. how-to-ubuntu. (2020a). What is GNU? Is it a person? place? or thing? In R/linux4noobs. www.reddit.com/r/linux4noobs/comments/kac82k/what_is_gnu_is_it_a_person_place_or_thing/
+121. how-to-ubuntu. (2020b). What is GNU? What does “GNU” stand for? where does it fit in Linux history? why do some people call Linux “gnu/linux”? In R/linux4noobs. www.reddit.com/r/linux4noobs/comments/k740t9/what_is_gnu_what_does_gnu_stand_for_where_does_it/
+122. Https://makelinux.github.io/kernel/map/. (n.d.). Retrieved April 9, 2024, from https://makelinux.github.io/kernel/map/
+123. Hyprland: Dynamic tiling window compositor with the looks. (n.d.). Retrieved April 14, 2024, from https://hyprland.org/
+124. I daily drive Arch Linux and never used Ubuntu. Which OS to choose for my home server. (2022). In R/HomeServer. www.reddit.com/r/HomeServer/comments/ujgk21/i_daily_drive_arch_linux_and_never_used_ubuntu/
+125. I installed Linux and there’s no driver support for most of my computer’s hardware, should I give up on using Linux? (n.d.). In Quora. Retrieved April 4, 2024, from https://www.quora.com/I-installed-Linux-and-theres-no-driver-support-for-most-of-my-computers-hardware-should-I-give-up-on-using-Linux
+126. idalko. (2020). How I Built My Own Linux Distribution: The Go-Nuts 2024 Guide. In Idalko. https://idalko.com/build-linux-distribution/
+127. Impossible_Arrival21. (2023). Why is Kali Linux so disproportionately popular with absolute beginners to Linux? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/16dyivk/why_is_kali_linux_so_disproportionately_popular/
+128. Introduction—The Linux Kernel documentation. (n.d.-a). Retrieved April 14, 2024, from https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html
+129. Introduction—The Linux Kernel documentation. (n.d.-b). Retrieved April 14, 2024, from https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html
+130. Is Arch Linux really a good Linux distribution for hosting a hypervisor? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/Is-Arch-Linux-really-a-good-Linux-distribution-for-hosting-a-hypervisor
+131. Is BlackArch Linux a bad daily driver? If so, why? (n.d.). In Quora. Retrieved April 9, 2024, from https://www.quora.com/Is-BlackArch-Linux-a-bad-daily-driver-If-so-why
+132. Is Cloud Operating System (Cloud OS) the next logical step? -. (n.d.). In Tech Blogger. Retrieved April 12, 2024, from https://contenteratechspace.com/blog/is-cloud-operating-system-cloud-os-the-next-logical-step/
+133. Is there any difference between cloud operating systems and cloud computing platforms? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/Is-there-any-difference-between-cloud-operating-systems-and-cloud-computing-platforms
+134. Is there any Linux distro harder than Arch to install and run? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/Is-there-any-Linux-distro-harder-than-Arch-to-install-and-run
+135. Isaac. (2022). dahliaOS: Linux based on Google Fuchsia? In Linux Adictos. https://www.linuxadictos.com/en/dahliaos.html
+136. Ishihara, Y. (2023). Why Linux is a Preferred Choice for Development over Windows. In Medium. https://medium.com/@tesla8877/why-linux-is-a-preferred-choice-for-development-over-windows-8f1aac1587bb
+137. Izerpizer. (2021a). Why is Linux the primary operating system that is used with servers? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/orph0d/why_is_linux_the_primary_operating_system_that_is/
+138. Izerpizer. (2021b, July 26). Why is Linux the primary operating system that is used with servers? [Reddit Post]. R/Linuxquestions. www.reddit.com/r/linuxquestions/comments/orph0d/why_is_linux_the_primary_operating_system_that_is/
+139. j0j0n4th4n. (2023). What do you use TempleOS for? In R/TempleOS_Official. www.reddit.com/r/TempleOS_Official/comments/121l2zl/what_do_you_use_templeos_for/
+140. jlxip. (2020). Arch Linux speedrun—1:14. https://www.youtube.com/watch?v=8utpbbdj0LQ
+141. Just for Fun: The Story of an Accidental Revolutionary. (n.d.-a). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/160171.Just_for_Fun
+142. Just for Fun: The Story of an Accidental Revolutionary. (n.d.-b). Retrieved April 9, 2024, from https://www.goodreads.com/book/show/160171.Just_for_Fun
+143. Kennedy, T. (2011). Answer to “GNU/Hurd vs. GNU/Linux.” In Unix & Linux Stack Exchange. https://unix.stackexchange.com/a/23553
+144. Key Differences Between Cloud Computing vs. Traditional. (n.d.-a). Retrieved April 12, 2024, from https://www.aztechit.co.uk/blog/cloud-computing-vs-traditional
+145. Key Differences Between Cloud Computing vs. Traditional. (n.d.-b). Retrieved May 4, 2024, from https://www.aztechit.co.uk/blog/cloud-computing-vs-traditional
+146. Khalid, A. (2024). How one volunteer stopped a backdoor from exposing Linux systems worldwide. In The Verge. https://www.theverge.com/2024/4/2/24119342/xz-utils-linux-backdoor-attempt
+147. kilObit. (2024). This Linux Looks like a Windows 11 and Windows 12. https://www.youtube.com/watch?v=9d53RjAnfRA
+148. Ksk Royal. (2023). How To Install Arch Linux in VirtualBox (2023) \textbar Arch Linux Installation. https://www.youtube.com/watch?v=FlQ-LyBDCoo
+149. Küçükkarakurt, F. (2023). The 5 Best Tools to Create Your Own Linux Distribution. In MUO. https://www.makeuseof.com/best-tools-create-your-own-linux-distribution/
+150. Kurth, L. (2013). Are Cloud Operating Systems the Next Big Thing? In Linux.com. https://www.linux.com/news/are-cloud-operating-systems-next-big-thing/
+151. LFS 12.0—How to build Linux From Scratch 12.0—YouTube. (n.d.). Retrieved April 10, 2024, from https://www.youtube.com/playlist?list=PLyc5xVO2uDsA5QPbtj_eYU8J0qrvU6315
+152. Lightweight PI-futexes—The Linux Kernel documentation. (n.d.). Retrieved April 7, 2024, from https://docs.kernel.org/locking/pi-futex.html
+153. Linux based Operating System \textbar Linux from AWS \textbar Amazon Web Services. (n.d.). In Amazon Web Services, Inc. Retrieved April 12, 2024, from https://aws.amazon.com/linux/
+154. Linux Commands—A practical reference. (n.d.). Retrieved April 7, 2024, from https://www.pixelbeat.org/cmdline.html
+155. Linux for cloud computing. (n.d.). Retrieved April 9, 2024, from https://www.redhat.com/en/topics/linux/linux-for-cloud-computing
+156. Linux for Dummies. (n.d.). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/1948958.Linux_for_Dummies
+157. Linux Kernel Development. (n.d.). Retrieved April 14, 2024, from https://www.goodreads.com/book/show/8474434-linux-kernel-development
+158. Linux Memory Management—Javatpoint. (n.d.). Www.Javatpoint.Com. Retrieved May 1, 2024, from https://www.javatpoint.com/linux-memory-management
+159. Linux Programming For Dummies. (n.d.). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/112064.Linux_Programming_For_Dummies
+160. Linux: The OS of the Cloud and the Enterprise l Sisense. (2019a). In Sisense. https://www.sisense.com/blog/linux-the-os-of-the-cloud-and-the-enterprise/
+161. Linux: The OS of the Cloud and the Enterprise l Sisense. (2019b, March 25). Sisense. https://www.sisense.com/blog/linux-the-os-of-the-cloud-and-the-enterprise/
+162. Linux Vs Mac: How They Compare And Contrast. (2023). https://www.redswitches.com/blog/linux-vs-mac/
+163. Linux vs. Microsoft Windows Servers—PerfectionGeeks. (n.d.). In PerfectionGeeks Technologies. Retrieved April 14, 2024, from https://www.perfectiongeeks.com/why-use-windows-server-over-linux
+164. Linux with Operating System Concepts. (n.d.). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/20792170-linux-with-operating-system-concepts
+165. Linux—Memory Management—Naukri Code 360. (n.d.). Retrieved May 1, 2024, from https://www.naukri.com/code360/library/linux-memory-management
+166. List of Linux distributions. (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=List_of_Linux_distributions&oldid=1217321888
+167. Looking for distro without graphical environment. (2020). In Linux.org. https://www.linux.org/threads/looking-for-distro-without-graphical-environment.31203/
+168. Loud-Explanation9108. (2023). What can Linux do that MacOS can’t? In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/12b97vg/what_can_linux_do_that_macos_cant/
+169. Machine code. (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Machine_code&oldid=1205582567
+170. ManWhoRestsALot. (2020). Is there anything especially unique about HolyC compared to C? In R/TempleOS_Official. www.reddit.com/r/TempleOS_Official/comments/jpdtp8/is_there_anything_especially_unique_about_holyc/
+171. mariuz. (2023). I’m done with Red Hat (Enterprise Linux). In R/linux. www.reddit.com/r/linux/comments/14l2t86/im_done_with_red_hat_enterprise_linux/
+172. Mashed. (2023). Arch Linux post install Guide. https://www.youtube.com/watch?v=YPrhIfm3VJs
+173. MC68020. (2023). Answer to “Can OS work without kernel?” In Unix & Linux Stack Exchange. https://unix.stackexchange.com/a/759573
+174. meilinaeka. (2023). Linux Operating System: History, Functions, Advantages, and Disadvantages. In Direktorat Pusat Teknologi Informasi. https://it.telkomuniversity.ac.id/en/linux-operating-system/
+175. Melanie. (2023). Bash (Bourne-Again shell): Principle, benefits, training. In Data Science Courses \textbar DataScientest. https://datascientest.com/en/bash-bourne-again-shell-principle-benefits-training
+176. Memory Management in Linux – Operating System. (n.d.). Retrieved May 1, 2024, from https://ebooks.inflibnet.ac.in/csp3/chapter/memory-management-in-linux/
+177. Microsoft Manages Legal and Ethical Issues. (n.d.).
+178. Mivocloud. (n.d.). Retrieved April 9, 2024, from https://mivocloud.com/en/blog/Pros-and-cons-of-Arch-Linux
+179. Modern Operating Systems. (n.d.). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/166195.Modern_Operating_Systems
+180. nabak. (2023). Arch + Hyprland Tour in 60 Seconds. https://www.youtube.com/watch?v=gOGM0uHCDFk
+181. Nachos. (n.d.). Retrieved April 14, 2024, from https://homes.cs.washington.edu/~tom/nachos/
+182. neoneat. (2023). Why only Arch linux wiki so good? In R/linuxmasterrace. www.reddit.com/r/linuxmasterrace/comments/10ltuh4/why_only_arch_linux_wiki_so_good/
+183. NetworkChuck. (2021a). You need to learn Virtual Machines RIGHT NOW‼ (Kali Linux VM, Ubuntu, Windows). https://www.youtube.com/watch?v=wX75Z-4MEoM
+184. NetworkChuck. (2021b). You need to learn Google Cloud RIGHT NOW‼. https://www.youtube.com/watch?v=YJwhQowT84A
+185. Next Day Video. (2014). Q&A with Linus Torvalds. https://www.youtube.com/watch?v=7SofmXIYvGM
+186. NoobCoder. (2023). Mr Incredible reacts to installing Arch Linux. https://www.youtube.com/watch?v=JL2liyM-DqA
+187. Not Another Completely Heuristic Operating System. (2023). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Not_Another_Completely_Heuristic_Operating_System&oldid=1184317541
+188. Notes/operating_systems.org at master · darshanime/notes. (n.d.). In GitHub. Retrieved April 12, 2024, from https://github.com/darshanime/notes/blob/master/operating_systems.org
+189. Nothing good is free: How Linux and open source companies make money. (n.d.). ZDNET. Retrieved May 1, 2024, from https://www.zdnet.com/article/how-do-linux-and-open-source-companies-make-money-from-free-software/
+190. Okoi, D. (2018). Why is Arch Linux So Challenging and What are Its Pros & Cons? https://www.geeksmint.com/why-is-arch-linux-so-challenging-what-are-pros-cons/
+191. O?Neill, K., Paquin, J.-C., Sen, A., Bringsjord, S., & Govindarajulu, N. (2018). Ethical Operating Systems. In G. Primiero & L. D. Mol (Eds.), Reflections on Programming Systems: Historical and Philosophical Aspects (pp. 235–260). Springer Verlag.
+192. Open Source and the Philosophy of Linux—Running Linux, Third Edition [Book]. (n.d.). Retrieved May 1, 2024, from https://www.oreilly.com/library/view/running-linux-third/156592469X/ch01s07.html
+193. Operating System Concepts. (n.d.). Retrieved April 12, 2024, from https://www.goodreads.com/book/show/83833.Operating_System_Concepts
+194. Operating system details \textbar Compute Engine Documentation. (n.d.). In Google Cloud. Retrieved April 12, 2024, from https://cloud.google.com/compute/docs/images/os-details
+195. Operating Systems: Three Easy Pieces. (n.d.). Retrieved April 12, 2024, from https://pages.cs.wisc.edu/~remzi/OSTEP/
+196. Operating System—YouTube. (n.d.). Retrieved April 3, 2024, from https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O
+197. Ops-class.org \textbar Learn Operating Systems Online. (n.d.). Retrieved April 12, 2024, from https://ops-class.org/
+198. OS Hardening: 10 Best Practices. (n.d.). In zippyOPS. Retrieved April 13, 2024, from https://www.zippyops.com:443/os-hardening-10-best-practices
+199. OsintOtter69. (2022). Whomst else daily driving the holy OS? (No bloat here. Just the never ending love of the lord). In R/linuxmasterrace. www.reddit.com/r/linuxmasterrace/comments/wn5tqc/whomst_else_daily_driving_the_holy_os_no_bloat/
+200. pacman—ArchWiki. (n.d.). Retrieved April 8, 2024, from https://wiki.archlinux.org/title/pacman
+201. Page not found \textbar Hitch Hiker’s Guide to Learning. (2023). https://www.hitchhikersguidetolearning.com/2021/01/03/linux-kernel-atomic-operations/%23:~:text=Atomic%20operations%20on%20the%20other,This%20prevents%20race%20conditions
+202. Parker, J. W. S. (2023, November 26). What are the system requirements for Arch Linux? James Parker. https://www.jamesparker.dev/what-are-the-system-requirements-for-arch-linux/
+203. Patil, A. (2024). Linux Process Scheduling—The Reason your Linux System Processes so Efficiently (Kernel…. In Medium. https://blog.stackademic.com/linux-process-scheduling-the-reason-your-linux-system-processes-so-efficiently-kernel-141b4a00bf18
+204. polytect. (2021). [Subjective/Personal] Does “Arch Linux” alone satisfy your needs? In R/archlinux. www.reddit.com/r/archlinux/comments/r6qs9e/subjectivepersonal_does_arch_linux_alone_satisfy/
+205. Pragna. (2023). Linux Architecture. In Medium. https://medium.com/@pragnapcu/linux-architecture-ed3ed126b58d
+206. Prepbytes. (2023, January 31). File Management in Operating System. PrepBytes Blog. https://www.prepbytes.com/blog/operating-system/file-management-in-operating-system/
+207. Process Scheduling In Linux. The Conductor Of Processes \textbar by Eliran T…. (2021). In Archive.ph. https://archive.ph/o61CU
+208. pthreads(7)—Arch manual pages. (n.d.). Retrieved April 14, 2024, from https://man.archlinux.org/man/pthreads.7.en
+209. Red Hat. (n.d.). Retrieved May 1, 2024, from https://cs.stanford.edu/people/eroberts/cs201/projects/open-source/econ.htm
+210. Rhino Linux. (n.d.). Retrieved April 9, 2024, from https://rhinolinux.org/index.html
+211. Roca, C. (2023). What is Kernel in an operating system? (2023). In ThePower Business School. https://www.thepowermba.com/en/blog/what-is-kernel-in-an-operating-system
+212. rogername. (2023). Why aren’t you using Void Linux? In R/voidlinux. www.reddit.com/r/voidlinux/comments/1186dtc/why_arent_you_using_void_linux/
+213. round robin scheduling new—YouTube. (n.d.). Retrieved April 14, 2024, from https://www.youtube.com/watch?v=FgvPfjcxg2A
+214. Round Robin(RR) CPU Scheduling Algorithm in OS with example—YouTube. (n.d.). Retrieved April 14, 2024, from https://www.youtube.com/watch?v=-jFGYDfWkXI
+215. Sanskriti. (2023, July 17). File Management in Linux. Scaler Topics. https://www.scaler.com/topics/file-management-in-linux/
+216. Scheduler—The Linux Kernel documentation. (n.d.). Retrieved April 14, 2024, from https://docs.kernel.org/scheduler/index.html
+217. Scientific Programming School. (2021). An Animated Tutorial on Operating Systems Basics. https://www.youtube.com/watch?v=b6MxozZv6-M
+218. Sharma, D. (2022). What Is the Arch User Repository (AUR)? Everything You Need to Know. In MUO. https://www.makeuseof.com/what-is-aur-in-arch-linux/
+219. Should I stay with Kali linux or switch to BlackArch ? (2021). In R/hacking. www.reddit.com/r/hacking/comments/kz8sgm/should_i_stay_with_kali_linux_or_switch_to/
+220. Singh, A. (2022). Everything You Need to Know About BlackArch Linux. In MUO. https://www.makeuseof.com/what-is-blackarch-linux/
+221. Sneddon, J. (2018). 27 Interesting Facts About Linux & Open Source. In OMG! Ubuntu. https://www.omgubuntu.co.uk/2018/08/interesting-facts-about-linux
+222. Software Wars. (n.d.). Retrieved April 8, 2024, from http://mshiltonj.com/software-wars/current/
+223. Sol Does Tech. (2023). Arch Install and Hyprland setup. https://www.youtube.com/watch?v=lfUWwZqzHmA
+224. Solayman, M. (2023). How Can You Create an Operating System? In Medium. https://medium.com/@solayman.1024/how-can-you-create-an-operating-system-f845b7f0dca8
+225. SteamOS. (n.d.). Retrieved April 10, 2024, from https://store.steampowered.com/steamos
+226. storagefreak. (2019). Create Linux VM in Google Cloud under 2 minutes. https://www.youtube.com/watch?v=L31yQYyMkKs
+227. System maintenance—ArchWiki. (n.d.). Retrieved May 4, 2024, from https://wiki.archlinux.org/title/system_maintenance
+228. Table of contents—ArchWiki. (n.d.). Retrieved April 9, 2024, from https://wiki.archlinux.org/title/Table_of_contents
+229. TechHut. (2022). 7 (more) AWESOME Linux CLI/Terminal Apps. https://www.youtube.com/watch?v=cKqsw_sAsU8
+230. TechHut. (2023a). Garuda Linux is getting better! - Quick look at “Dr460nized” Raptor Eagle. https://www.youtube.com/watch?v=bf31pI5GZkk
+231. TechHut. (2023b). Stop Distro Hopping! Use this AWESOME tool on Linux. https://www.youtube.com/watch?v=Sj064D9ZUl8
+232. TED. (2016). The mind behind Linux \textbar Linus Torvalds \textbar TED. https://www.youtube.com/watch?v=o8NPllzkFhE
+233. TempleOS. (n.d.). Retrieved April 9, 2024, from https://templeos.org/
+234. TempleOS_Terry_Davis. (2015). Somebody Other than Me Wrote a TempleOS App :-). In R/programming. www.reddit.com/r/programming/comments/3cd4sn/somebody_other_than_me_wrote_a_templeos_app/
+235. Thakur, S. (2023). Funny Commands in Linux: 👍. In Medium. https://sonamthakur7172.medium.com/funny-commands-in-linux-d3c39fc11da5
+236. The best Linux distributions for beginners in 2024: Expert tested and reviewed. (n.d.). In ZDNET. Retrieved April 5, 2024, from https://www.zdnet.com/article/best-linux-desktops-for-beginners/
+237. The GNU Operating System and the Free Software Movement. (n.d.). Retrieved April 9, 2024, from https://www.gnu.org/
+238. The Linux Command Line: A Complete Introduction. (n.d.). Retrieved April 9, 2024, from https://www.goodreads.com/book/show/11724436-the-linux-command-line
+239. The Linux Experiment. (2023). Why Linux is better for (most) developers! https://www.youtube.com/watch?v=E_C3pgc1Iho
+240. The little book about OS development. (n.d.). Retrieved April 13, 2024, from https://littleosbook.github.io/
+241. Titus Tech Talk. (2023). You Only NEED 3 Linux Distributions. https://www.youtube.com/watch?v=t9e3NvTnCOA
+242. Top 10 User-friendly Arch-Based Linux Distributions [2024]. (2020). In It’s FOSS. https://itsfoss.com/arch-based-linux-distros/
+243. trancelasyon. (2016). Linus Torvalds—For some reason people keep sending me penguins. https://www.youtube.com/watch?v=h-NGegOZ3nQ
+244. Tsoding Daily. (2021a). AoC 2021 in TempleOS — Day 01. https://www.youtube.com/watch?v=nvldfkikveI
+245. Tsoding Daily. (2021b). I riced my TempleOS (AoC in HolyC Day 7). https://www.youtube.com/watch?v=V_lnh-PQRTs
+246. Understanding the Linux Kernel. (n.d.). Retrieved April 9, 2024, from https://www.goodreads.com/book/show/227119.Understanding_the_Linux_Kernel
+247. UNIX and Linux System Administration Handbook. (n.d.). Retrieved April 9, 2024, from https://www.goodreads.com/book/show/8772005-unix-and-linux-system-administration-handbook
+248. Virtualization in Cloud Computing and Types. (2018). In GeeksforGeeks. https://www.geeksforgeeks.org/virtualization-cloud-computing-types/
+249. Welcome to Linux From Scratch! (n.d.). Retrieved April 12, 2024, from https://linuxfromscratch.org/
+250. Welcome to linuxzoo. (n.d.). Retrieved April 12, 2024, from https://linuxzoo.net/
+251. Wells, D. (2024). DavidWells/advanced-markdown. https://github.com/DavidWells/advanced-markdown
+252. What are Daemons in Linux? Why are They Used? (2021, May 25). It’s FOSS. https://itsfoss.com/linux-daemons/
+253. What are interesting facts about Linux? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/What-are-interesting-facts-about-Linux
+254. What are Linux Distributions ? (2021). In GeeksforGeeks. https://www.geeksforgeeks.org/what-are-linux-distributions/
+255. What are some of the latest trends and innovations in operating system design and development? (n.d.). Retrieved April 12, 2024, from https://www.linkedin.com/advice/3/what-some-latest-trends-innovations-operating
+256. What are some reasons why companies use Windows server instead of Linux? (n.d.). In Quora. Retrieved April 14, 2024, from https://www.quora.com/What-are-some-reasons-why-companies-use-Windows-server-instead-of-Linux
+257. What are some reasons why MacBook users might switch to Linux? (n.d.). In Quora. Retrieved April 14, 2024, from https://www.quora.com/What-are-some-reasons-why-MacBook-users-might-switch-to-Linux
+258. What are the key differences between Windows and Linux operating systems? (n.d.). Retrieved April 14, 2024, from https://www.linkedin.com/advice/0/what-key-differences-between-windows-linux-operating
+259. What are the pros and cons of Arch Linux as an alternative to Windows for home and personal use? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/What-are-the-pros-and-cons-of-Arch-Linux-as-an-alternative-to-Windows-for-home-and-personal-use
+260. What emerging operating system trends and technologies are you learning? (n.d.). Retrieved April 12, 2024, from https://www.linkedin.com/advice/0/what-emerging-operating-system-trends-technologies
+261. What is Arch Linux? (2021). In GeeksforGeeks. https://www.geeksforgeeks.org/what-is-arch-linux/
+262. What is Arch Linux? [8 reasons why Arch Linux is superior]. (n.d.). In OperaVPS. Retrieved April 8, 2024, from https://operavps.com/blog/what-is-arch-linux/
+263. What is Bourne Shell? – Definition from TechTarget.com. (n.d.). In Data Center. Retrieved April 9, 2024, from https://www.techtarget.com/searchdatacenter/definition/Bourne-shell
+264. What is cloud infrastructure? (n.d.). In Cloud Computing. Retrieved April 12, 2024, from https://www.techtarget.com/searchcloudcomputing/definition/cloud-infrastructure
+265. What is Linux Operating System. (2020). In GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-linux-operating-system/
+266. What is memory management in a computer environment? (n.d.). WhatIs. Retrieved May 1, 2024, from https://www.techtarget.com/whatis/definition/memory-management
+267. What is PowerShell and How to Use It: The Ultimate Tutorial. (n.d.). In SearchWindowsServer. Retrieved April 9, 2024, from https://www.techtarget.com/searchwindowsserver/definition/PowerShell
+268. What is TempleOS? – Wikipedia Fork « TempleOS Online. (2023). In TempleOS Online. https://templeosonline.com/docs/post-info/what-is-templeos/
+269. What is the connection between operating system and dinosaurs? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/What-is-the-connection-between-operating-system-and-dinosaurs
+270. What is the difference between cloud OS and non-cloud OS with their examples, pros, and cons? (n.d.-a). In Quora. Retrieved April 12, 2024, from https://www.quora.com/What-is-the-difference-between-cloud-OS-and-non-cloud-OS-with-their-examples-pros-and-cons
+271. What is the difference between cloud OS and non-cloud OS with their examples, pros, and cons? (n.d.-b). Quora. Retrieved May 4, 2024, from https://www.quora.com/What-is-the-difference-between-cloud-OS-and-non-cloud-OS-with-their-examples-pros-and-cons
+272. What is the reason that GNU Hurd did not become more popular than Linux? (n.d.). In Quora. Retrieved April 9, 2024, from https://www.quora.com/What-is-the-reason-that-GNU-Hurd-did-not-become-more-popular-than-Linux
+273. What is your review of Arch Linux? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/What-is-your-review-of-Arch-Linux
+274. What Linux distro most resembles Apple’s OS X? (n.d.). In Quora. Retrieved April 9, 2024, from https://www.quora.com/What-Linux-distro-most-resembles-Apples-OS-X
+275. What’s your favorite Linux distro? (2023). In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/168obda/whats_your_favorite_linux_distro/
+276. Which operating system does AWS use? (n.d.). In Quora. Retrieved April 12, 2024, from https://www.quora.com/Which-operating-system-does-AWS-use
+277. Why did you switch back to Windows after using Linux? (n.d.). In Quora. Retrieved April 14, 2024, from https://www.quora.com/Why-did-you-switch-back-to-Windows-after-using-Linux
+278. Why do I have so many repeated processes? (2020). In R/archlinux. www.reddit.com/r/archlinux/comments/j6d7el/why_do_i_have_so_many_repeated_processes/
+279. Why is GNU called an operating system if it doesn’t have the kernel? (n.d.). In Quora. Retrieved April 9, 2024, from https://www.quora.com/Why-is-GNU-called-an-operating-system-if-it-doesnt-have-the-kernel
+280. Why is Kali Linux so hated as a daily driver. (2022). In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/zc7bbf/why_is_kali_linux_so_hated_as_a_daily_driver/
+281. why you choose ArchLinux? (Page 31) / Arch Discussion / Arch Linux Forums. (n.d.). Retrieved April 12, 2024, from https://bbs.archlinux.org/viewtopic.php?id=118353&p=31
+282. Write your own Operating System—YouTube. (n.d.). Retrieved April 12, 2024, from https://www.youtube.com/playlist?list=PLHh55M_Kq4OApWScZyPl5HhgsTJS9MZ6M
+283. Zain, M. (2023). Creating a Linux VM on Google Cloud Platform. In Medium. https://medium.com/@muhammadzain_60232/creating-a-linux-vm-on-google-cloud-platform-d0d709dbda23
+284. zetret. (2022). Is there a Linux VM that I can access for free online? (Preferably Ubuntu, but anything else is fine too.). In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/toyll1/is_there_a_linux_vm_that_i_can_access_for_free/
+285. ZMcCrocklin. (2022). What’s your preferred shell &amp; why? In R/archlinux. www.reddit.com/r/archlinux/comments/yayeun/whats_your_preferred_shell_why/
+286. 邓家贵，2017低端人口，2008西藏骚乱\textlessscript\textgreateralert(1)\textless/script\textgreater, C. S. (三西猴) O. com sponsor me: cirosantilli com/sponsor, opinions my own 2020冠状病毒审查 ，2020郝海东 ，2018新疆改造中心，1989六四事件，1999法轮功 ，2019 996 ICU, 2018包子露宪，2015 709大抓捕，2015巴拿马文件. (2024). Cirosantilli/linux-kernel-module-cheat. https://github.com/cirosantilli/linux-kernel-module-cheat
+     
 ## Terms of Use
 Copyright © 2024 All Contributors
 
