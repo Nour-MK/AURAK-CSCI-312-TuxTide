@@ -921,7 +921,7 @@ As we lower the anchor, let’s raise our mugs to Arch Linux—the island where 
 283. Zain, M. (2023). Creating a Linux VM on Google Cloud Platform. In Medium. https://medium.com/@muhammadzain_60232/creating-a-linux-vm-on-google-cloud-platform-d0d709dbda23
 284. zetret. (2022). Is there a Linux VM that I can access for free online? (Preferably Ubuntu, but anything else is fine too.). In R/linuxquestions. www.reddit.com/r/linuxquestions/comments/toyll1/is_there_a_linux_vm_that_i_can_access_for_free/
 285. ZMcCrocklin. (2022). What’s your preferred shell &amp; why? In R/archlinux. www.reddit.com/r/archlinux/comments/yayeun/whats_your_preferred_shell_why/
-286. 邓家贵，2017低端人口，2008西藏骚乱\textlessscript\textgreateralert(1)\textless/script\textgreater, C. S. (三西猴) O. com sponsor me: cirosantilli com/sponsor, opinions my own 2020冠状病毒审查 ，2020郝海东 ，2018新疆改造中心，1989六四事件，1999法轮功 ，2019 996 ICU, 2018包子露宪，2015 709大抓捕，2015巴拿马文件. (2024). Cirosantilli/linux-kernel-module-cheat. https://github.com/cirosantilli/linux-kernel-module-cheat
+286. Cirosantilli/linux-kernel-module-cheat. https://github.com/cirosantilli/linux-kernel-module-cheat
      
 ## Terms of Use
 Copyright © 2024 All Contributors
