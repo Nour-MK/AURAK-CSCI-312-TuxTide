@@ -626,6 +626,12 @@ As we lower the anchor, let’s raise our mugs to Arch Linux—the island where 
     <img width = "100" height="100" src="Assets/ditaa-35f7597b35b83bb0025ac2a5f158c9eae23050c8.png" >
     <img width = "100" height="100" src="Assets/ditaa-f6b228332baf165f498d8a1bb0bc0bdb91ae50c5.png" >
     <img width = "100" height="100" src="Assets/ditaa-fd771038e88b95def30ae9bd4df0b7bd6b7b3503.png" >
+    <img width = "100" height="100" src="Assets/last1.png" >
+    <img width = "100" height="100" src="Assets/last2.png" >
+    <img width = "100" height="100" src="Assets/last3.png" >
+    <img width = "100" height="100" src="Assets/last4.png" >
+    <img width = "100" height="100" src="Assets/last5.png" >
+
 
 </p>
 
