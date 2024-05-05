@@ -386,45 +386,45 @@ Linux's powerful file management system involves structuring files and directori
 
 To determine the file type in Linux, you can use the file command followed by the file path. For example, running the file example.txt will show the file type as "ASCII Text" if it is a regular text file. Similarly, for folders, running the Documents file will display it as a folder.
 ```
-user@scaler-topics:~$ file Documents
+user@tuxtide-casestudy:~$ file Documents
 Documents: directory
 ```
-To list files in a directory on Linux, you can use the `ls` command. `ls` command will provide output that includes the names of all files and folders in the current location. The `ls` command provides various options to customize the output, such as displaying file details, sorting by different criteria, and filtering specific file types. This is the basic command to examine and navigate the file system and one of the most popular commands for file management in Linux. For example, to list files in the current directory, including Scaler_blog.txt, you can run the command below in your terminal: 
+To list files in a directory on Linux, you can use the `ls` command. `ls` command will provide output that includes the names of all files and folders in the current location. The `ls` command provides various options to customize the output, such as displaying file details, sorting by different criteria, and filtering specific file types. For example, all your files and folders in the current directory will be listed using `ls -l`, and each file type will be displayed in a different color. This is the basic command to examine and navigate the file system and one of the most popular commands for file management in Linux. For example, to list files in the current directory, including tuxtide_blog.txt, you can run the command below in your terminal: 
 ```
-user@scaler-topics:~$ ls
-Desktop              Music              scaler-topics              Videos
+user@tuxtide-casestudy:~$ ls
+Desktop              Music              tuxtide-topics              Videos
 Documents            Pictures           snap
 Downloads            Public             Templates
-hostSharedVolume     scaler_blog.txt    vcard-personal-potfolio
+hostSharedVolume     tuxtide_blog.txt    vcard-personal-potfolio
 ```
-All your files and folders in the current directory will be listed using `ls -l`, and each file type will be displayed in a different color. To create a new file in Linux, you can use the `touch` command followed by the desired file name. The `touch` command updates the file timestamp if it already exists or creates a new empty file if it does not exist. For example, to create a file named Scaler_blog.txt, you would run the following command:
+To create a new file in Linux, you can use the `touch` command followed by the desired file name. The `touch` command updates the file timestamp if it already exists or creates a new empty file if it does not exist. For example, to create a file named tuxtide_blog.txt, you would run the following command:
 ```
-user@scaler-topics:~$ touch scaler_blog.txt
+user@tuxtide-casestudy:~$ touch tuxtide_blog.txt
 ```
 `cat` command can be used to display the contents of a file. This command will display the contents of file 'filename'. 
 ```
-user@scaler-topics:~$ cat filename
+user@tuxtide-casestudy:~$ cat filename
 This is the content of file.
 ```
 Files in Linux allow you to create an exact copy of the original file. The `cp` command accomplishes this goal by allowing you to specify source and destination files for replication The basic syntax for copying a file is as follows: `cp <source_file> <destination>`.
 ```
-user@scaler-topics:~$ cp scaler_blog.txt scaler_blog_copy.txt
+user@tuxtide-casestudy:~$ cp tuxtide_blog.txt tuxtide_blog_copy.txt
 ```
 Moving a file in Linux involves moving it from one directory to another. The `mv` command is used for this operation, allowing you to specify the current location of the file and the destination directory where you want to move it. The basic syntax is: `mv <file_path> <target_directory>`.
 ```
-user@scaler-topics:~$ mv scaler_blog.txt articles/
+user@tuxtide-casestudy:~$ mv tuxtide_blog.txt articles/
 ```
 ```
-user@scaler-topics:~$ ls articles
-scaler_blog.txt
+user@tuxtide-casestudy:~$ ls articles
+tuxtide_blog.txt
 ```
 Renaming files is a simple file management task in Linux that allows you to change a file's name while keeping its content intact. To rename a file, you can use the `mv` command, followed by the current file name and the new name you want. The basic syntax is: `mv <current_file_name> <new_file_name>`.
 ```
-user@scaler-topics:~$ mv blog.txt scaler_blog.txt
+user@tuxtide-casestudy:~$ mv blog.txt tuxtide_blog.txt
 ```
-Deleting files is a file management operation in Linux. In Linux, there are different methods to delete a file. The commonly used command to delete files is the `rm` command. It means delete. The basic syntax to delete files using the `rm` command is: `rm <file_path>`. The path to the file you want to delete can be an absolute path, such as /home/user/scaler_blogs.txt, or a relative path, such as ./scaler_blog.txt.
+Deleting files is a file management operation in Linux. In Linux, there are different methods to delete a file. The commonly used command to delete files is the `rm` command. It means delete. The basic syntax to delete files using the `rm` command is: `rm <file_path>`. The path to the file you want to delete can be an absolute path, such as /home/user/tuxtide_blog.txt, or a relative path, such as ./tuxtide_blog.txt.
 ```
-user@scaler-topics:~$ rm ./scaler_blog.txt
+user@tuxtide-casestudy:~$ rm ./tuxtide_blog.txt
 ```
 
 ## Part 2: Cloud Computing OS
