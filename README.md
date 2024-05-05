@@ -65,7 +65,7 @@ We extend our sincere appreciation to Dr. Zubaidah Al-Hazza for her invaluable g
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Performance-wise](#performance-wise)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.3. [Hardware Support](#hardware-support)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.4. [Community and Support](#community-and-support)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.5. [](#updates-and-stability)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.5. [Updates and Stability](#updates-and-stability)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.6. [Licensing and Cost](#licensing-and-cost)<br>
 5. [Part 3: Additional Considerations (Best Practices in OS)](#part-3-additional-considerations-best-practices-in-os)<br>
 &nbsp;5.1. [Legal and Ethical Issues](#legal-and-ethical-issues)<br>
